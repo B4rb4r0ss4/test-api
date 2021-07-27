@@ -1,0 +1,938 @@
+[
+  {
+    "Question": "Grupa osób wspólnie realizująca proces leczenia stanowi zespół terapeutyczny, którego cechami jest wspólnota celu działania i odpowiedzialności za jego realizację oraz:",
+    "a": " sprawny obieg informacji, indywidualne ustalenie zakresu działań,",
+    "b": " sprawny obieg informacji, wspólne ustalenie zakresu działań (w tym indywidualnych obowiązków i uprawnień),",
+    "c": " ustalenie zakresu obowiązków przez lidera, sprawny obieg informacji,",
+    "d": " wspólne ustalenie zakresu działań (w tym indywidualnych obowiązków i uprawnień), wyłącznie elektroniczny obieg informacji. ",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "W analizie SWOT silnymi stronami jednostki są przede wszystkim jej unikalne:",
+    "a": " możliwości pozwalające osiągnąć najwyższą ocenę klientów i utrzymać ją w czasie,",
+    "b": " zasoby, umiejętności mające wpływ na marketing usług i odróżniające ją w pozytywny sposób od innych firm,",
+    "c": " zasoby, umiejętności lub inne aspekty odróżniające ją w pozytywny sposób od innych firm,",
+    "d": " możliwość identyfikacji zagrożeń wg prawdopodobieństwa zajścia,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Jaka instytucja ustala ranking publikacji naukowych w Polsce?",
+    "a": " Ministerstwo Nauki i Szkolnictwa Wyższego,",
+    "b": " każda uczelnia posiadająca prawo do nadawania stopni naukowych doktora i doktora habilitowanego,",
+    "c": " każda rada wydziału posiadająca prawo do nadawania stopni naukowych doktora i doktora habilitowanego,",
+    "d": " Ministerstwo Edukacji Narodowej.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Asertywność:",
+    "a": " zajmuje się relacjami dystansu i przestrzeni pomiędzy osobami,",
+    "b": " zajmuje się gestami i pozycją ciała oraz ruchami oczu w czasie komunikacji,",
+    "c": " pozwala na ustalenie celów do których powinniśmy dążyć,",
+    "d": " to zachowanie pozwalające przekazać nasze pragnienia, wartości i uczucia bez naruszania praw innych.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Prawo dostępu do dokumentacji medycznej posiada/ją:",
+    "a": " pacjent i jego rodzina,",
+    "b": " pacjent, jego przedstawiciel ustawowy bądź osoba przez niego upoważniona,",
+    "c": " pacjent i jego najbliższa rodzina (małżonek, rodzice i dzieci),",
+    "d": " tylko osoba upoważniona przez pacjenta,",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Pielęgniarka i położna wykonują zlecenia lekarskie:",
+    "a": " tylko pisemne,",
+    "b": " wszystkie, które zgodne są z jej sumieniem,",
+    "c": " tylko zapisane w dokumentacji medycznej,",
+    "d": " zapisane w dokumentacji medycznej, chyba że pacjent znajduje się w stanie nagłego zagrożenia zdrowotnego - wówczas dopuszczalne jest wykonanie zlecenia ustnego.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Usługa jako produkt przechodzi przez cztery fazy cyklu życi-A$*$ Modyfikacja jednej z faz – zwana Recykl może występować w fazie:",
+    "a": " wprowadzenia,",
+    "b": " wzrostu,",
+    "c": " dojrzałości,",
+    "d": " spadku.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Pielęgniarka nie udzieliła pomocy osobie, która nagle zasłabła na ulicy, lecz szybko oddaliła się z miejsca zdarzeni-A$*$ Zachowanie takie naraża ją na poniesienie odpowiedzialności:",
+    "a": " pracowniczej i karnej,",
+    "b": " karnej i zawodowej,",
+    "c": " pracowniczej,",
+    "d": " pracowniczej, karnej i zawodowej.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Komunikowanie pośrednie to komunikowanie:",
+    "a": " za pomocą środków masowego przekazu od nadawcy do odbiorcy,",
+    "b": " za pomocą telefonu bądź smartfonu,",
+    "c": " za pomocą e-maila bądź listu,",
+    "d": " nadawcy przez inną osobę.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Jedyną polską bazą indeksującą piśmiennictwo naukowe z obszaru medycyny i nauk o zdrowiu jest:",
+    "a": " Polska Bibliografia Lekarska,",
+    "b": " Polska Biblioteka Lekarska,",
+    "c": " Biblioteka Lekarska,",
+    "d": " Główna Bibliografia Lekarska,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Pacjent ma 17 lat i konieczne jest uzyskanie zgody na wykonanie zabiegu. Zgodę tę wyraż-A$*$",
+    "a": " przedstawiciel ustawowy pacjenta,",
+    "b": " przedstawiciel ustawowy pacjenta oraz sam małoletni pacjent,",
+    "c": " małoletni pacjent, ponieważ ukończył 16 lat,",
+    "d": " przedstawiciel ustawowy pacjenta lub jego opiekun faktyczny.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Benchmarking jest to metoda użyteczna w doskonaleniu jakości i polega nA$*$",
+    "a": " wybiórczym procesie porównywania wniosków przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych),",
+    "b": " nieprzerwanym procesie porównywania wyników przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych),",
+    "c": " nieprzerwanym procesie porównywania wydatków przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych), dyrektywny,",
+    "d": " wybiórczym procesie porównywania wydatków",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Od 1 stycznia 2016 roku, samodzielnie ordynować leki zawierające określone substancje czynne mogą pielęgniarki i położne, które ukończyły:",
+    "a": " studia I stopnia pod warunkiem ukończenia kursu specjalistycznego w tym zakresie,",
+    "b": " studia I stopnia lub posiadające tytuł specjalisty w dziedzinie pielęgniarstwa,",
+    "c": " studia II stopnia lub posiadające tytuł specjalisty w dziedzinie pielęgniarstwa, pod warunkiem ukończenia kursu specjalistycznego w tym zakresie,",
+    "d": " studia II stopnia pod warunkiem ukończenia kursu dokształcającego w tym zakresie.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Podstawowe wskaźniki modelu PATH obejmują m. in. wskaźniki efektywności (skuteczności i wydajności), do których zalicza się:",
+    "a": " średni czas pobytu (ostry zawał, udar, pozaszpitalne zapalenie płuc, złamanie kości udowej),",
+    "b": " ciągłość opieki medycznej,",
+    "c": " zakłucia personelu medycznego,",
+    "d": " odsetek przyjęć po zabiegach w trybie jednodniowym m. in. zaćmy czy artroskopii.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Czy przynależność pielęgniarki/położnej do samorządu zawodowego jest obowiązkowa?",
+    "a": " nie, jest dobrowolna,",
+    "b": " tak, jednak za zgodą Naczelnej Rady Pielęgniarek i Położnych można wykonywać zawód pielęgniarki bez przynależności do samorządu zawodowego,",
+    "c": " tak, przynależność pielęgniarek i położnych do samorządu jest obowiązkowa,",
+    "d": " tak, przynależność pielęgniarek i położnych do",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Fundamentalne założenie w zarządzaniu ludźmi mówi, że najważniejszym zasobem organizacji jest/są:",
+    "a": " infrastruktura,",
+    "b": " ludzie,",
+    "c": " ludzie i infrastruktura,",
+    "d": " przedsiębiorstwo.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Fundamentalne założenia w zarządzaniu ludźmi mówi, że:",
+    "a": " infrastruktura jest najważniejszym zasobem organizacji,",
+    "b": " ludzie są najważniejszym zasobem organizacji,",
+    "c": " ludzie i infrastruktura są najważniejszym zasobem organizacji,",
+    "d": " organizacja jest najważniejszym zasobem przedsiębiorstwa,",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "WHO opracowało plakat „5 momentów higieny rąk”, który zawiera informacje na temat kiedy i dlaczego należy je wykonać. Informacje kiedy wykonać 5 momentów higieny rąk dotyczą sytuacji:",
+    "a": " przed kontaktem z pacjentem, przed kontaktem z otoczeniem pacjenta, po kontakcie z pacjentem, po kontakcie z otoczeniem pacjenta, przed czystą, aseptyczną procedurą,",
+    "b": " przed kontaktem z pacjentem, po kontakcie z pacjentem, przed czystą, aseptyczną procedurą, po wykonaniu czystej aseptycznej procedury, po kontakcie/narażeniu na płyny ustrojowe,",
+    "c": " przed kontaktem z pacjentem, po kontakcie z pacjentem, p o kontakcie z otoczeniem pacjenta, przed czystą, aseptyczną procedurą, po kontakcie/narażeniu na płyny ustrojowe,",
+    "d": " przed kontaktem z pacjentem, po kontakcie z pacjentem, p o kontakcie z otoczeniem pacjenta, po wykonaniu aseptycznej procedury, po kontakcie/narażeniu na płyny ustrojowe.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "W strategiach przeciwdziałania nierównościom w zdrowiu przyjmowane są cele dotyczące:",
+    "a": " poprawy przewidywanej długości trwania życia mieszkańców kraju,",
+    "b": " poprawy stanu zdrowia grup społecznych żyjących w ubóstwie,",
+    "c": " zmniejszania nierówności w zdrowiu w całym społeczeństwie,",
+    "d": " wszystkie odpowiedzi są prawidłowe.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Zakażenie szpitalne, to zakażenie, które wystąpiło w związku z udzielaniem świadczeń zdrowotnych, w przypadku gdy chorob-A$*$",
+    "a": " pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie nie dłuższym niż najdłuższy okres jej wylęgania,",
+    "b": " nie pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie dłuższym niż najdłuższy okres jej wylęgania,",
+    "c": " nie pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie nie dłuższym niż najdłuższy okres jej wylęgania,",
+    "d": " pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie dłuższym niż najdłuższy okres jej wylęgania,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Praktyka pielęgniarska oparta na dowodach naukowych NIE obejmuje:",
+    "a": " rozwiązywania problemów klinicznych poprzez decyzje oparte na wynikach badań,",
+    "b": " uczestniczenia w konferencjach naukowych,",
+    "c": " analizowania wyników publikacji naukowych,",
+    "d": " samodzielnego wykonywania zleceń lekarskich.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Zasady pobierania, przechowywania i przeszczepiania komórek, tkanek i narządów określa ustaw-A$*$",
+    "a": " o pobieraniu, przechowywaniu i przeszczepianiu komórek, tkanek i narządów z 23 marca 2017 roku,",
+    "b": " o działalności leczniczej z 15 kwietnia 2011 roku,",
+    "c": " o prawach pacjenta z 19 listopada 2008 roku,",
+    "d": " transplantacyjna z 10 kwietnia 2011 roku.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Co to jest system peer review?",
+    "a": " ocena merytoryczna nadesłanych do redakcji tekstów poprzez fachową recenzję",
+    "b": " metoda oceny dorobku naukowego związana z oceną sumarycznej wartości impact factor,",
+    "c": " system oceny rankingowej czasopism naukowych oparty na analizie liczby cytowań,",
+    "d": " system łącznej oceny rankingowej czasopism naukowych i autorów.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Do negatywnych mierników zdrowia zaliczamy:",
+    "a": " zachorowalność, śmiertelność, przyrost naturalny,",
+    "b": " chorobowość, płodność kobiet, oczekiwaną długość życia,",
+    "c": " zachorowalność, chorobowość, umieralność,",
+    "d": " zapadalność, śmiertelność, wskaźnik rozwoju ludzkości.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Kierowanie przez delegowanie uprawnień przynosi konkretne korzyści, do których zaliczamy:",
+    "a": " oszczędzanie czasu kierownika,",
+    "b": " oszczędzanie czasu pracownika oraz jego lepszą motywację,",
+    "c": " rozwój przedsiębiorczości na etapie podstawowym,",
+    "d": " efektywniejszą satysfakcję pracownika i przełożonego.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Do kolejnych etapów postępowania podczas realizacji pielęgniarskiego projektu badawczego NIE należy:",
+    "a": " określenie celu badań oraz sformułowanie problemu badawczego,",
+    "b": " określenie hipotez, czyli twierdzeń naukowych, które dostarczą odpowiedzi na pytania wynikające z problemu badawczego,",
+    "c": " operacjonalizacja problemów badawczych,",
+    "d": " komercjalizacja wyników badań naukowych.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Pacjent pozywa pielęgniarkę/położną i domaga się odszkodowania za szkodę wyrządzoną w wyniku błędu medycznego. Ewentualna odpowiedzialność pielęgniarki/położnej będzie miała charakter odpowiedzialności:",
+    "a": " karnej,",
+    "b": " zawodowej,",
+    "c": " pracowniczej,",
+    "d": " cywilnej.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Czynnik alarmowy, to:",
+    "a": " biologiczny czynnik chorobotwórczy, który jest przyczyną wyępowania chorób zakaźnych,",
+    "b": " biologiczny czynnik chorobotwórczy o szczególnej zjadliwości i oporności,",
+    "c": " niepożądany objaw chorobowy pozostający w związku czasowym z wykonanym szczepieniem ochronnym,",
+    "d": " biologiczny czynnik chorobotwórczy, który wywołuje zakażenia charakterystyczne dla osób o obniżonej odporności.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "W g H. Fayola, do funkcji kierowniczej (inaczej zwanej funkcją zarządzania) zaliczamy:",
+    "a": " prognozowanie, organizowanie, rozkazywanie, koordynowanie, kontrolowanie,",
+    "b": " celowanie, organizowanie, koordynowanie, rozkazywanie, kontrolowanie,",
+    "c": " przekształcenie, celowanie, koordynowanie, kontrolowanie,",
+    "d": " prognozowanie, organizowanie, celowanie,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Konformizmem nazywamy podporządkowanie zachowania i sposobu myślenia jednostki spowodowane rzeczywistym lub wyobrażonym naciskiem. Na nasilenie lub osłabienie konformizmu wpływ-A$*$",
+    "a": " samoocena pielęgniarki, liczba autorytetów w grupie, podobne postawy współpracowników,",
+    "b": " wykształcenie, poczucie bezpieczeństwa, rodzaj ukończonej szkoły,",
+    "c": " wykształcenie, umiejętność skutecznego porozumiewania się, miejsce pracy,",
+    "d": " samoocena pielęgniarki, rodzaj ukończonej szkoły, podobne postawy współpracowników.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Współczynnik oddziaływania Impact Factor (IF) dotyczy:",
+    "a": " oceny czasopisma naukowego,",
+    "b": " oceny pracownika naukowego,",
+    "c": " oceny jednostki naukowej,",
+    "d": " oceny szpitala klinicznego.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Wskaż, który typ badań klinicznych charakteryzuje się najwyższą wiarygodnością:",
+    "a": " meta-analiza,",
+    "b": " kliniczne badanie z randomizacją,",
+    "c": " kliniczne badanie obserwacyjne,",
+    "d": " studium przypadku.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Zaraźliwość, to:",
+    "a": " wniknięcie do organizmu i rozwój w nim biologicznego czynnika chorobotwórczego,",
+    "b": " zdolność biologicznego czynnika chorobotwórczego do przeżycia i namnażania oraz wywołania objawów chorobowych po przeniesieniu go do organizmu innego człowieka lub zwierzęcia,",
+    "c": " zdolność biologicznego czynnika chorobotwórczego do wywołania ciężkiej choroby,",
+    "d": " zdolność wniknięcia, namnożenia się oraz uszkodzenia tkanek zainfekowanego organizmu przez określony biologiczny czynnik chorobotwórczy.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Jan Kowalski zamieścił w Internecie ogłoszenie o treści: \"Jestem młody i zdrowy; sprzedam nerkę; mogę uratować komuś życie; cena do negocjacji\". Czyn taki:",
+    "a": " jest prawnie dozwolony,",
+    "b": " nie jest zabroniony, lecz gdyby doszło do \"transakcji\" stanowiłby przestępstwo,",
+    "c": " jest wykroczeniem,",
+    "d": " jest przestępstwem.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Zamieszczone w internecie ogłoszenie o treści: \"Jestem młody i zdrowy, sprzedam nerkę, mogę uratować komuś życie, cena do negocjacji\". Czyn taki jest:",
+    "a": " prawnie dozwolony,",
+    "b": " dozwolony, lecz gdyby doszło do \"transakcji\" stanowiłby przestępstwo,",
+    "c": " wykroczeniem,",
+    "d": " przestępstwem.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Do zakłóceń w komunikacji interpersonalnej, niezależnych od osób uczestniczących w relacji, należą:",
+    "a": " brak kontaktu wzrokowego, odbieranie telefonu podczas rozmowy z pacjentem, hałas,",
+    "b": " światło pulsujące z dużą częstotliwością, obecność osób trzecich podczas badania, hałas,",
+    "c": " milczenie, grupowe zbieranie wywiadu przez studentów, hałas,",
+    "d": " światło pulsujące z dużą częstotliwością, zbyt niska temperatura otoczenia, hałas.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Koncentrowanie się w relacjach z innymi ludźmi wyłącznie na ich potrzebach, z jednoczesnym nierespektowaniem własnych, charakteryzuje styl:",
+    "a": " egocentryczny,",
+    "b": " autopsychiczny,",
+    "c": " allocentryczny,",
+    "d": " allopsychiczny.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Fazy komunikowania terapeutycznego pomagają osiągnąć cel terapeutyczny. Zachęcanie pacjenta do opisu przeżyć, do koncentracji i eksploracji poprzez wypowiedzi typu: „proszę opowiedzieć o tym coś więcej”, należy do fazy:",
+    "a": " porządkującej,",
+    "b": " podtrzymującej,",
+    "c": " pogłębiającej,",
+    "d": " zapoczątkowującej.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Przyrost naturalny ludności, to:",
+    "a": " różnica między liczbą urodzeń żywych i saldem migracji (emigracji i imigracji) w danym okresie,",
+    "b": " różnica między liczbą urodzeń żywych i zgonów dzieci w okresie noworodkowym w ciągu roku,",
+    "c": " różnica między liczbą urodzeń żywych i zgonów w danym okresie,",
+    "d": " różnica między liczbą urodzeń żywych a liczbą zgonów i saldem migracji w danym okresie.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Do narzędzi stosowanych w procesie doskonalenia jakości zaliczamy m.in. Diagram Ischikawa – diagram przyczynowo-skutkowy. Wykres ten wskazuje na główne przyczyny problemu:",
+    "a": " człowiek, metody, zarządzanie, materiał, maszyny, środowisko,",
+    "b": " pacjent, personel, organizacja, płace, środowisko, metody,",
+    "c": " kadry, płace, aparatura i sprzęt medyczny, metody, środowisko, organizacja,",
+    "d": " narzędzia, materiały, kadry, problem, środowisko, metoda,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Co to jest \"przewinienie zawodowe\" ?",
+    "a": " naruszenie zasad etyki zawodowej,",
+    "b": " naruszenie zasad etyki zawodowej lub przepisów dotyczących wykonywania zawodu,",
+    "c": " naruszenie przepisów dotyczących wykonywania zawodu,",
+    "d": " popełnienie przestępstwa związanego z wykonywaniem zawodu pielęgniarki.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Informowanie pacjenta przez pielęgniarkę/położną o zamiarze wykonania iniekcji domięśniowej odbywa się na poziomie:",
+    "a": " relacyjnym,",
+    "b": " relaksacyjnym,",
+    "c": " treściowym,",
+    "d": " rekreacyjnym.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "W rozważaniach teoretycznych nad problematyką jakości w opiece zdrowotnej Avedis Donabedian określił trzy wymiary jakości: struktura, proces, efekt (wynik). Do procesu zaliczamy:",
+    "a": " kwalifikacje i rozmieszczenie personelu,",
+    "b": " system finansowy i nagradzania,",
+    "c": " relacje zachodzące wewnątrz grupy świadczeniodawców/usługodawców,",
+    "d": " poprawę zdrowia i kondycji zdrowotnej klienta,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Publikacja, która napisana jest w sposób umożliwiający powtórzenie doświadczenia lub obserwacji innego autora to:",
+    "a": " praca oryginalna,",
+    "b": " praca kazuistyczna,",
+    "c": " praca poglądowa,",
+    "d": " meta-analiza,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Pielęgniarka ma prawo odmówić wykonania zlecenia lekarskiego, tylko kiedy jest niezgodne z jej:",
+    "a": " sumieniem,",
+    "b": " zakresem posiadanych kwalifikacji,",
+    "c": " sumieniem lub z zakresem posiadanych kwalifikacji,",
+    "d": " sumieniem lub aktualną wiedzą naukową w dziedzinie pielęgniarstwa,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Do triady błędnych postaw terapeutycznych leżących również po stronie pielęgniarki, zalicza się:",
+    "a": " błąd maski, błąd prokuratorski, błąd naukowej obiektywności,",
+    "b": " błąd maski, błąd sędziego, błąd naukowejsubiektywności,",
+    "c": " błąd maski, błąd sędziego, błąd naukowej obiektywności,",
+    "d": " błąd maski, błąd zawodowy, błąd naukowej obiektywności.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Motywowanie polega na zespole oddziaływań zmierzających, do:",
+    "a": " skłaniania pracowników do podejmowania i realizacji przyszłościowych oczekiwanych ale z równoczesnym ukazaniem sankcji – w celu lepszej motywacji, jeżeli nie wykona poleconych celów, misji i zadań,",
+    "b": " skłaniania pracowników do podejmowania i realizacji oczekiwań kolegów, podwładnych oraz przełożonych do ich realizacji,",
+    "c": " nakłaniania pracowników do podejmowania i realizacji oczekiwań podwładnych oraz przełożonych do ich realizacji w zamian za docelowe przyznanie pracownikom pieniężnej nagrody,",
+    "d": " efektywnego skłaniania pracowników do podejmowania i realizacji oczekiwanych celów, funkcji i zadań,  także przyjmowania preferowanych przez motywującego postaw i zachowań.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": ",Podporządkowanie pacjenta w imię wyższej sprawy np. regulaminu oddziału charakterystyczne jest dla stylu komunikowani-A$*$",
+    "a": " egocentrycznego,",
+    "b": " egoistycznego,",
+    "c": " egalitarnego,",
+    "d": " allocentrycznego.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Badanie obserwacyjne to badanie, w którym:",
+    "a": " ekspozycja pacjentów na dany czynnik lub interwencję zależy od zbiegu okoliczności,",
+    "b": " ekspozycja pacjentów na dany czynnik lub interwencję zależy od badaczy,",
+    "c": " ekspozycja pacjentów na dany czynnik lub interwencję zależy od pacjentów,",
+    "d": " ekspozycja pacjentów na dany czynnik lub interwencję zależy równocześnie od badaczy i pacjentów.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Celem reklamy jest:",
+    "a": " jedynie osiągnięcie wzrostu sprzedaży firmy,",
+    "b": " dotarcie do świadomości klientów tak, aby zainteresować ich ofertą i skłonić do zakupu,",
+    "c": " zwiększenie stopnia znajomości otoczenia firmy,",
+    "d": " utrzymanie wzrostu sprzedaży firmy na stałym poziomie.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Praktyka pielęgniarska oparta na dowodach naukowych definiowana jest jako wykorzystanie najlepszych dowodów naukowych przy podejmowaniu decyzji dotyczących wysokiej jakości opieki nad pacjentem. Dowody te NIE powinny być dostarczane poprzez:",
+    "a": " prowadzenie badań naukowych prowadzonych przez pielęgniarki,",
+    "b": " skalę oceniającą praktyczną wartość badań medycznych,",
+    "c": " analizę piśmiennictwa naukowego,",
+    "d": " obserwację skuteczności wykonywanych procedur medycznych.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Ustawa o samorządzie zawodowym pielęgniarek i położnych z dnia 1 lipca 2011 r. reguluje:",
+    "a": " zasady wykonywania zawodu pielęgniarki i położnej,",
+    "b": " zakres świadczeń, jakie pielęgniarka i położna może wykonywać samodzielnie bez zlecenia lekarza,",
+    "c": " zasady ponoszenia odpowiedzialności zawodowej przez pielęgniarkę i położną,",
+    "d": " obowiązki pielęgniarki/położnej wobec pacjenta przy uzyskiwaniu świadomej zgody na świadczenia lekarskie.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Zasady odpowiedzialności zawodowej pielęgniarek i położnych określA$*$",
+    "a": " Kodeks etyki zawodowej pielęgniarek i położnych Rzeczypospolitej Polskiej",
+    "b": " Ustawa o zawodach pielęgniarek i położnych",
+    "c": " Ustawa o samorządzie pielęgniarek i położnych",
+    "d": " Ustawa o działalności leczniczej",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Komunikacja niewerbalna charakteryzuje się:",
+    "a": " systemem znaków,",
+    "b": " niepowiązaniem systemu i formy przekazu,",
+    "c": " precyzyjnością komunikatu,",
+    "d": " ciągłością trwania przez cały czas interakcji.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Badania epidemiologiczne opisowe, służą do:",
+    "a": " opisu częstości występowania choroby w populacji na podstawie określonych mierników,",
+    "b": " opisu związków choroby z czynnikami, które mogą wpływać na jej częstość lub przebieg,",
+    "c": " szukania w przeszłości prawdopodobnej przyczyny choroby,",
+    "d": " zbierania informacji o przyczynach choroby, co pozwala n a najbardziej bezpośredni pomiar ryzyka jej wystąpienia,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Czynniki utrudniające powstanie relacji terapeutycznej występujące po stronie pacjenta, to wszystkie niżej wymienione z WYJĄTKIEM:",
+    "a": " braku motywacji do leczenia,",
+    "b": " nieufności, często łączącej się z podejrzliwością i niechęcią do pełnej współpracy,",
+    "c": " błędem maski, błędem sędziego, błędem naukowej obiektywności,",
+    "d": " agresji i manipulacji.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Według Evidence-Based Medicine decyzji klinicznych NIE powinno podejmować się na podstawie:",
+    "a": " systemu wartości i preferencji pacjenta,",
+    "b": " uciążliwości procedury medycznej,",
+    "c": " kosztów procedury medycznej,",
+    "d": " tylko danych naukowych.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Sfera informacyjna w zarządzaniu jakością czyli zakres wiedzy jaki powinien posiadać pacjent, w tym m. in. profilaktyka, jakie leki brać, jak często, jak stosować, jak postępować po badaniu, czy zabiegu, zawiera bariery, do których zaliczamy:",
+    "a": " brak komunikacji pacjent a lekarz czy pielęgniarka/położna,",
+    "b": " brak komunikacji dyrekcja – personel,",
+    "c": " nieprawidłowy mechanizm finansowania ze strony płatnika,",
+    "d": " nieprawidłowe finansowanie ze strony budżetu państwa,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Który typ badań klinicznych charakteryzuje się najniższą wiarygodnością?",
+    "a": " badanie kazuistyczne,",
+    "b": " kliniczne badanie z randomizacją,",
+    "c": " kliniczne badanie obserwacyjne,",
+    "d": " meta-analiza,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Prawidłowo prowadzona rekrutacja i selekcja stanowią jedno z najważniejszych zadań w obszarze pracowników firmy usługowej. Dział kadr poszukuje kandydatów, korzystając często z usług specjalistycznych agencji wyszukujących odpowiedniej osoby, zamieszczając ogłoszenie w prasie, czy prowadząc rekrutację wśród studentów. Proces selekcji kandydatów obejmuje:",
+    "a": " sporządzenie dokładnego opisu stanowiska, przyciąganie kandydatów,",
+    "b": " określenie profilu osobistego wg kryteriów dyrekcji, rozmowa kwalifikacyjna,",
+    "c": " opis stanowiska i kryteria psychologiczne,",
+    "d": " określenie profilu osobistego i socjalizacja przyszłego kandydata,",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Zgodnie z „Wytycznymi WHO dotyczącymi higieny rąk w opiece zdrowotnej” w zakresie wykorzystania rękawi-C$*$",
+    "a": " należy zawsze używać rękawic, gdy można racjonalnie oczekiwać, że dojdzie do kontaktu z krwią lub innym potencjalnie zakaźnym materiałem, błoną śluzową lub naruszoną powłoką skóry,",
+    "b": " używając rękawic, nie należy ich zmienić, jeżeli podczas wykonywania opieki nad pacjentem przechodzi się od zakażonych powierzchni ciała do innych części ciała pacjenta lub przedmiotów w jego otoczeniu,",
+    "c": " do wszystkich zabiegów przy jednym pacjencie należy użyć jednej pary rękawic,",
+    "d": " należy stosować wszystkie wymienione wyżej wytyczne.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Komunikacja werbalna, to:",
+    "a": " komunikacja za pomocą słów,",
+    "b": " komunikacja za pomocą gestów i min,",
+    "c": " komunikowanie się za pomocą wysokości tonów,",
+    "d": " komunikowanie się za pomocą ubioru i innych atrybutów.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Na proces planowania zatrudnienia składają się następujące etapy:",
+    "a": " ustalenie celów i planów rozwojowych, ale i podaży i popytu usług medycznych,",
+    "b": " opracowanie prognozy podaży i popytu personelu w oparciu o analizę danych, przewidywanych trendów w ww. zakresie z uwzględnieniem planów sprzedaży, celów organizacji i planów rozwojowych oraz analiz wewnętrznych i zewnętrznych rynku pracy,",
+    "c": " porównanie przewidywanych wielkości popytu i podaży (pracy ale i usług medycznych, aparatury i sprzętu medycznego) oraz opracowanie (w oparciu o uzyskane wyniki) i wdrożenie planów i programów obsady stanowisk,",
+    "d": " kontrola oraz rozmowa z kandydatami.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Indeks Hirsch-A$*$",
+    "a": " jest związany z oceną autora publikacji naukowej,",
+    "b": " jest związany z oceną czasopisma naukowego,",
+    "c": " dotyczy sposobu indeksacji publikacji naukowych przez Ministerstwo Nauki i Szkolnictwa Wyższego,",
+    "d": " dotyczy sposobu indeksacji publikacji naukowych w Polskiej Bibliografii Lekarskiej.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "W jakim zakresie pacjent, który nie ukończył 16 lat ma prawo do informacji o swoim stanie zdrowia, rozpoznaniu, proponowanych oraz możliwych metodach diagnostycznych i leczniczych, dających się przewidzieć następstwach ich zastosowania albo zaniechania, wynikach leczenia oraz rokowaniu?",
+    "a": " w pełnym zakresie, ponieważ konieczne jest to do uzyskania świadomej zgody,",
+    "b": " w zakresie ograniczonym dobrem małoletniego pacjenta i jego stopniem rozwoju,",
+    "c": " w zakresie i formie potrzebnej do prawidłowego przebiegu procesu diagnostycznego lub terapeutycznego,",
+    "d": " w zakresie, w jakim informacji tej udzielą mu jego przedstawiciele ustawowi (rodzice), którym przysługuje pełna informacja,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "W skład zespołu terapeutycznego wchodzi zawsze:",
+    "a": " lekarz, pielęgniarka, pacjent,",
+    "b": " lekarz, pielęgniarka, pacjent, psycholog,",
+    "c": " pacjent, psycholog, pielęgniarka, kapelan,",
+    "d": " lekarz, pacjent, rodzina pacjenta, pielęgniarka,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Relacja interpersonalna, to:",
+    "a": " inaczej rozmowa pomiędzy, co najmniej trzema osobami,",
+    "b": " wzajemny intelektualny, emocjonalny, duchowy i fizyczny stosunek dwóch osób,",
+    "c": " zjawisko dynamiczne między ludźmi odbywające się tu i teraz,",
+    "d": " zachodzi tylko pomiędzy bliskimi osobami.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Zasady wykonywania zawodu pielęgniarki/położnej uregulowane są w :",
+    "a": " ustawie o zawodach pielęgniarki i położnej z dnia 15 lipca 2011 r.,",
+    "b": " ustawie o samorządzie zawodowym pielęgniarek i położnych z dnia 1 lipca 2011 r.,",
+    "c": " ustawie o działalności leczniczej z 15 kwietnia 2011 r.,",
+    "d": " ustawie o zawodach pielęgniarki i położnej z dnia 15 stycznia 1996 r.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Zgodnie z opracowaniem „Wytyczne WHO dotyczące higieny rąk w opiece zdrowotnej - podsumowanie”, naturalne paznokcie należy krótko obcinać, końcówki paznokci nie mogą być dłuższe niż:",
+    "a": " 0,2 cm,",
+    "b": " 0,3 cm,",
+    "c": " 0,4 cm,",
+    "d": " 0,5 cm.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Komunikowanie bezpośrednie ma charakter interakcyjny, to znaczy:",
+    "a": " przebiega tylko pomiędzy osobami dobrze się znającymi,",
+    "b": " przebiega za pośrednictwem mediów społecznościowych,",
+    "c": " dotyczy przynajmniej dwóch osób wchodzących we wzajemne relacje,",
+    "d": " przebiega za pomocą ściśle określonego kodu",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Outsourcing jest narzędziem zarządzania związanym z przekazywaniem części procesów i działań na zewnątrz ściśle związanym z lean managementem, gdzie redukcja i ograniczenia obejmują kompleksową działalność przedsiębiorstw-A$*$ Alternatywny sposób zapewnienia wzrostu wydajności dzięki udoskonaleniu działalności w jednej dziedzinie, a następnie fazie wykonywania jej na rzecz innych firm, to:",
+    "a": " co-sourcing,",
+    "b": " insourcing,",
+    "c": " outsourcing usług,",
+    "d": " zlecenie funkcji.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Standardy etyczne prowadzenia badań naukowych w medycynie, stawiające dobro uczestnika badania na pierwszym miejscu, określ-A$*$",
+    "a": " Deklaracja z Ałma-Aty,",
+    "b": " Deklaracja Helsińska,",
+    "c": " Deklaracja z Dżakarty,",
+    "d": " Karta Ottawska,",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Skala Sacketta jest skalą oceniającą:",
+    "a": " metodologiczną wartość badań medycznych,",
+    "b": " praktyczną wartość badań medycznych,",
+    "c": " nowatorskość badań medycznych,",
+    "d": " celowość badań medycznych.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Potwierdzenie odbioru informacji od pacjenta ich parafrazowanie, odzwierciedlanie uczuć pacjenta, konkretyzowanie jego wypowiedzi, są to niektóre techniki wykorzystywane w metodzie:",
+    "a": " autentycznej postawy,",
+    "b": " asertywnego zachowania,",
+    "c": " aktywnego słuchania,",
+    "d": " empatycznego podejścia,",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Parafrazowanie to:",
+    "a": " okazywanie empatycznego zrozumienia,",
+    "b": " obserwowanie sygnałów niewerbalnych,",
+    "c": " powtarzanie za pacjentem niektórych istotnych elementów jego wypowiedzi,",
+    "d": " przyjmowanie akceptującej postawy wobec osoby, z którą się komunikujemy.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Kodeks etyki zawodowej pielęgniarki i położnej Rzeczypospolitej Polskiej zawiera szereg sformułowań odnoszących się do cech charakteru jakie powinna posiadać pielęgniarka/położna i są to m.in.:",
+    "a": " życzliwość, wyrozumiałość, cierpliwość,",
+    "b": " życzliwość, dobroduszność, naiwność,",
+    "c": " wyrozumiałość, konformizm, życzliwość,",
+    "d": " cierpliwość, małostkowość, życzliwość.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Normy etyki zawodowej zawarte w Kodeksie etyki zawodowej pielęgniarki i położnej Rzeczypospolitej Polskiej mają za zadanie:",
+    "a": " służyć jedynie jako podstawa karania,",
+    "b": " być bezrefleksyjnie stosowane,",
+    "c": " chronić interesy zawodowe tylko pielęgniarek,",
+    "d": " stać na straży bezpieczeństwa pacjenta,",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Który model komunikacji w grupie sprzyja efektywnemu komunikowaniu się poprzez scentralizowany przepływ informacji:",
+    "a": " koła,",
+    "b": " gwiazdy,",
+    "c": " łańcucha,",
+    "d": " raka,",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Model transformacji demograficznej zakłada, że wartości kluczowych parametrów opisujących populację, które kształtują jej strukturę demograficzną zmieniają się:",
+    "a": " w zależności od etapu rozwoju społeczno-gospodarczego,",
+    "b": " tylko w zależności od poprawy warunków bytowania oraz postępu w medycynie,",
+    "c": " tylko w zależności od stabilizacji w ruchach naturalnych ludności przy niskim poziomie umieralności i rozrodczości,",
+    "d": " tylko w zależności od współczynnika dzietności i długości trwania życia,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Przy formułowaniu obowiązków pracowniczych, świadomość hierarchii zadań przypisanych danemu stanowisku, NIE odnosi się do zasady:",
+    "a": " przystosowalności,",
+    "b": " należytej szczegółowości,",
+    "c": " nepotyzmu,",
+    "d": " doskonalenia kadr.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Proces, w którym dobre lub złe wrażenie dotyczące jednego przymiotu rzutuje na całość oceny, to:",
+    "a": " efekt aureoli,",
+    "b": " stereotyp,",
+    "c": " nastawienie,",
+    "d": " wpływ emocji.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Czynniki wewnętrzne warunkujące szybkość adaptacji zawodowej pielęgniarki, to:",
+    "a": " osobowość, kwalifikacje zawodowe, stan fizyczny,",
+    "b": " kwalifikacje zawodowe, warunki fizyczne otoczenia,",
+    "c": " przejrzysta struktura organizacyjna, osobowość przełożonego,",
+    "d": " stan fizyczny, stan wyposażenia organizacji w aparaturę medyczną.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Evidence-Based Medicine (EBM -  uznaje się na podstawie literatury przedmiotu, że jest to:",
+    "a": " świadome, jasne i przemyślane zastosowanie najlepszego aktualnie dowodu na podstawie analiz medycznych czasopism anglojęzycznych,",
+    "b": " nieświadome, jasne i przemyślane zastosowanie najlepszego aktualnego dowodu w podejmowaniu decyzji dotyczących pacjentów danego oddziału,",
+    "c": " przemyślane zastosowanie eksperymentu badawczego, w celu podjęcia jak najlepszej decyzji dotyczącej konkretnego pacjenta,",
+    "d": " świadome, jasne i przemyślane zastosowanie najlepszego aktualnego dowodu w podejmowaniu decyzji dotyczących konkretnego pacjent-A",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Analiza zewnętrzna dokumentu NIE polega na,",
+    "a": " ustaleniu czasu, warunków i okoliczności, w jakich powstał,",
+    "b": " uzupełnieniu analizy wewnętrznej,",
+    "c": " określeniu wpływu, jaki wywarł dokument na przebieg określonych wydarzeń,",
+    "d": " dokładnym poznaniu treści dokumentu.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Rzecznikiem odpowiedzialności zawodowej pielęgniarek i położnych może zostać:",
+    "a": " pielęgniarka, położna ze średnim wykształceniem i nieprzerwanym 10 letnim stażem pracy w zawodzie, wybrana na zjeździe pielęgniarek i położnych,",
+    "b": " pielęgniarka, położna, niezależnie od jej wykształcenia, z nienaganną opinią, mianowana przez Departament Pielęgniarek i Położnych Ministerstwa Zdrowia,",
+    "c": " każda pielęgniarka, położna, która zostanie powołana przez Przewodniczącą Naczelnego Sądu Pielęgniarek i Położnych,",
+    "d": " pielęgniarka, połozna z tytułem magister pielęgniarstwa, położnictwa i nieprzerwanym rocznym stażem pracy w szpitalu, wybrana na zjeździe pielęgniarek i położnych.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Niespójność komunikacyjna, jeden z głównych czynników zakłócających proces komunikowania, to:",
+    "a": " brak spójności pomiędzy treściami zawartymi w wypowiedzi,",
+    "b": " brak spójności pomiędzy komunikatami werbalnymi i niewerbalnymi,",
+    "c": " brak odbioru komunikatu przez odbiorcę,",
+    "d": " niezdecydowanie w wypowiedzi nadawcy.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Na zdrowie ludzi w starszym wieku mają wpływ:",
+    "a": " przebyte choroby,",
+    "b": " praca z czynnikami szkodliwymi,",
+    "c": " stosunki międzyludzkie w pracy i w domu,",
+    "d": " wszystkie odpowiedzi są prawidłowe(?)",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Najczęstsze zakażenia wywoływane przez Staphylococcus epidermidis, to:",
+    "a": " bakteriemie związane z obecnością linii naczyniowej",
+    "b": " zakażenia skóry i tkanek miękkich,",
+    "c": " zakażenia układu moczowego u chorych zacewnikowanych,",
+    "d": " odrespiratorowe zapalenie płuc,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Opieka pielęgniarska oparta na faktach - EBNP (Evidence-Based Nursing Practice) dotyczy:",
+    "a": " podejmowania decyzji w opiece nad pacjentem na podstawie wiarygodnych danych naukowych,",
+    "b": " prowadzenia badań w warunkach laboratoryjnych, a następnie wdrażanie ich w warunkach szpitalnych,",
+    "c": " podejmowania decyzji zarządczych na podstawie różnorodnych danych naukowych,",
+    "d": " podejmowania decyzji w opiece nad pacjentem na podstawie wybiórczych danych naukowych.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "PubMed/Medline, Cochrane Nursing Care, Cochrane Summaries, są to nazwy:",
+    "a": " internetowych wyszukiwarek z zakresu medycyny,",
+    "b": " czasopism wydawanych w formie elektronicznej,",
+    "c": " anglojęzycznych czasopism z zakresu pielęgniarstwa,",
+    "d": " internetowych księgarni medycznych.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Skrót schematu pytania klinicznie istotnego brzmi PICO, w którym pierwsza litera P oznacz-A$*$",
+    "a": " pacjent,",
+    "b": " porównanie,",
+    "c": " próba,",
+    "d": " punkt końcowy.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Metody epidemiologiczne stosuje się do:",
+    "a": " Badania zjawisk zdrowotnych",
+    "b": " Weryfikacji działalności służby zdrowia",
+    "c": " Badania działań promocyjnych",
+    "d": " Badania zjawisk zdrowotnych i weryfikacji działalności służby zdrowia,",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Pielęgniarka, położna, uzyskująca tytuł specjalisty w danej dziedzinie ma obowiązek:",
+    "a": " W ciągu 14 dni od dnia przeprowadzenia postępowania egzaminacyjnego zawiadomić właściwą okręgową  radę pielęgniarek i położnych o ukończeniu szkolenia specjalizacyjnego",
+    "b": " Nie później niż w terminie 14 dni od dnia powstania zmiany zawiadomić właściwą okręgową radę pielęgniarek i położnych o ukończeniu szkolenia specjalizacyjnego",
+    "c": " Nie później niż w terminie  7 dni od dnia przeprowadzenia postępowania egzaminacyjnego zawiadomić pracodawcę, który powiadamia właściwą okręgową radę pielęgniarek i położnych o ukończeniu szkolenia specjalizacyjnego",
+    "d": " Jeśli korzystała z miejsca szkoleniowego dotowanego przez Ministerstwo Zdrowia, w ciągu 7 dni od dnia powstania zmiany zawiadomić właściwą okręgową radę pielęgniarek i położnych ",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Pielęgniarka/położna może prowadzić badania naukowe i:",
+    "a": " nie powinna ich upowszechniać poza periodykami pielęgniarskimi,",
+    "b": " może je udostępnić pod warunkiem uzyskania zgody przełożonego,",
+    "c": " może je udostępnić po uzyskaniu zgody od samorządu zawodowego,",
+    "d": " powinna je upowszechniać bez znamion sensacji.",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Stanowiska kierownicze w pielęgniarstwie obsadzane w drodze postępowania konkursowego, regulowane są przez ustawę o:",
+    "a": " Zawodach pielęgniarki i położnej",
+    "b": " Samorządzie pielęgniarek i położnych",
+    "c": " Działalności leczniczej",
+    "d": " Związkach zawodowych",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Proksemika zajmuje się:",
+    "a": " relacjami dystansu i przestrzeni pomiędzy komunikującymi się osobami",
+    "b": " fizycznym wyglądem uczestników dialogu",
+    "c": " tempem mówienia podczas podczas wystąpienia publicznego",
+    "d": " barwą głosu komunikujących się ze sobą osób",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Komunikacja, a więc wymiana różnego rodzaju informacji, zachodzi na wielu poziomach. Najbardziej bliskim człowiekowi poziomem, sięgającym w jego sferę osobistą, jest poziom:",
+    "a": " intrapersonalny,",
+    "b": " interpersonalny,",
+    "c": " społeczny,",
+    "d": " grupowy.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Psychoterapia elementarna to:",
+    "a": " samodzielna metoda leczenia poprzez wykorzystanie komunikacji terapeutycznej,",
+    "b": " specjalistyczna metoda leczenia wykorzystująca środki psychologiczne,",
+    "c": " sposób komunikowania się z pacjentem wspomagający leczenie i pielęgnację,",
+    "d": " wąski dział psychoterapii.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Analiza czynników innych niż zdrowotne, które mogą mieć wpływ na stan zdrowia na poziomie województw została pogrupowana w trzech kategoriach: sytuacja demograficzna, rynek pracy i edukacja, sytuacja gospodarcza i stan gospodarstw domowych. Do oceny sytuacji demograficznej w województwach wykorzystane zostały dwa wskaźniki, są to:",
+    "a": " wskaźnik feminizacji i obciążenia demograficznego osobami starszymi,",
+    "b": " wskaźnik zatrudnienia i obciążenia demograficznego osobami starszymi,",
+    "c": " wskaźnik feminizacji i wykształcenia,",
+    "d": " wskaźnik zatrudnienia i wykształcenia,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Dokument w którym znajdują się opisy wzajemnego oddziaływania między procesami systemu zarządzania jakością nazywa się:",
+    "a": " Specyfikacją",
+    "b": " Planem jakości",
+    "c": " Księgą jakości",
+    "d": " Procedurą",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "W ocenie kompetencji miękkich pracownika uwzględnisz:",
+    "a": " wygląd zewnętrzny, postawę, wykształcenie",
+    "b": " zachowanie, komunikację, postawę, wartości",
+    "c": " wartości, sposób poruszania, wykształcenie",
+    "d": " wszystkie odpowiedzi są błędne.",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "W oficjalnych kryteriach oceny ofert dla świadczeń medycznych składanych płatnikowi (obecnie NFZ), nie znajdują się kryteri-A$*$",
+    "a": " Negatywny wizerunek i zasoby ludzkie ",
+    "b": " Szkody kliniczne i wyposażenie w aparaturę medyczną",
+    "c": " Szkody kliniczne i certyfikaty jakościowe ",
+    "d": " Negatywny wizerunek i szkody kliniczne ",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Do technik obserwacji bezpośrednich zmierzających do ustalenia pracochłonności danego zadania, zalicza się:",
+    "a": "Fotografię dnia, chronometraż, obserwacje przełożonych ",
+    "b": "Chronometraż, obserwację migawkową, technikę szacunkową",
+    "c": "Fotografię dnia, chronometraż, obserwację migawkową",
+    "d": "Fotografię zespołu, chronometraż, obserwację migawkową",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Celowe użycie milczenia jest ważnym narzędziem terapeutycznym, stymulującym napięcie konieczne do ujawnienia ważnych informacji i pogłębienia już poznanych. Jest ono charakterystyczne dla fazy:",
+    "a": " porządkującej komunikowanie,",
+    "b": " podtrzymującej komunikowanie,",
+    "c": " pogłębiającej komunikowanie,",
+    "d": " zapoczątkowującej komunikowanie,",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Do najważniejszych modyfikowalnych czynników ryzyka chorób przewlekłych w Polsce należą:",
+    "a": " palenie tytoniu, nadciśnienie tętnicze, wysoki poziom cholesterolu i podwyższony poziom glukozy we krwi, nadwaga i otyłość, niska aktywność fizyczna, niskie spożycie warzyw i owoców, nadmierne spożycie alkoholu,",
+    "b": " umieralność niemowląt, umieralność dzieci i młodzieży w wieku 1-19 lat, nadwaga i otyłość, niska aktywność fizyczna, niskie spożycie warzyw i owoców, poprawa opieki medycznej, przyjazne środowiska dorastania,",
+    "c": " umieralność ludności Polski w wieku 65 lat i więcej, miejsce zamieszkania, ubóstwo, standaryzowane współczynniki zgonów, rozkład regionalny ryzyka zgonu, palenie tytoniu, nadciśnienie tętnicze,",
+    "d": " wykształcenie, miejsce zamieszkania, palenie tytoniu, wysoki poziom cholesterolu, podwyższony poziom glukozy we krwi, nadmierne spożycie alkoholu.",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Dostosowanie rytmów biologicznych człowieka do rozkładu jego czasu pracy, tak aby jak najmniej zaburzać fizjologię, to:",
+    "a": " psychologia pracy,",
+    "b": " chronopsychologia,",
+    "c": " chronoergonomia,",
+    "d": " żadna z powyższych odpowiedzi.",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Zmienna, która pojawia się w przebiegu badania jako skutek oraz nie podlega manipulacji lecz obserwacji i pomiarom jest to:",
+    "a": " zmienna zależna,",
+    "b": " zmienna niezależna,",
+    "c": " niezmienna zależna,",
+    "d": " zmienna zewnętrzna,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Określenia Evidence-Based Medicine (EBM) czyli praktyka medyczna oparta o wiarygodne i aktualne dowody naukowe jako pierwszy użył:",
+    "a": " w 1991 r. Kanadyjczyk Gordon Guyatt, profesor medycyny i epidemiologii klinicznej,",
+    "b": " w 1974 r. kanadyjski Minister Zdrowia i Opieki Społecznej Marc Lalonde,",
+    "c": " w 1979 r. brytyjski epidemiolog Archie Cochrane,",
+    "d": " w 2006 r. chińska lekarka Margaret Chan, Dyrektor Generalny Światowej Organizacji Zdrowia,",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Przegląd systematyczny polega n-A$*$",
+    "a": " jakościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego z użyciem odpowiednich metod zmniejszających błąd statystyczny.",
+    "b": " ilościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego z użyciem odpowiednich metod zmniejszających błąd statystyczny.",
+    "c": " systematycznej prenumeracie czasopism z danej dziedziny medycyny i systematycznym przeglądzie interesujących badacza artykułów",
+    "d": " jakościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego bez użycia metod zmniejszających błąd statystyczny",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Jednym z uprawnień pacjenta jest prawo do żądania aby udzielająca mu świadczeń zdrowotnych pielegniark-A$*$",
+    "a": " Bezwarunkowo zasięgnęła opinii innej pielęgniarki przed udzielaniem świadczenia ",
+    "b": " Zasięgnęła opinii innej pielęgniarki, z możliwością uznania że żądanie jest bezzasadne",
+    "c": " Zasięgnęła opinii innej pielęgniarki tylko wówczas gdy brak jest możliwości uzyskania opinii lekarza",
+    "d": " Zasięgnęła opinii innej pielęgniarki posiadającej specjalizację w danej dziedzinie",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Poprawna definicja empatii to:",
+    "a": " Umiejętność współodczuwania stanu emocjonalnego pacjenta ",
+    "b": " Proces poznawczy oparty na dokładnym rozumieniu sytuacji pacjenta ",
+    "c": " Proces emocjonalno-poznawczy, obejmujący rozumienie uczuć drugiego człowieka oraz zdolność do subiektywnego doświadczania stanu psychicznego",
+    "d": " Postawa prospołeczna ukierunkowana na niesienie pomocy ",
+    "correctAnswer": "a"
+  },
+  {
+    "Question": "Do narzędzi niematerialnych stosowanych w motywowaniu pracownika zalicza się m.in:",
+    "a": " Wytyczenie ścieżki kariery zawodowej wyłącznie przez pracodawcę, nałożenie dodatkowych obowiązków, wizerunek organizacji",
+    "b": " Umożliwienie rozwoju osobistego, zlecanie prac przekraczających kompetencje pracownika, awans",
+    "c": " Umożliwienie rozwoju osobistego pracownika, awans, dobre warunki pracy, wizerunek organizacji",
+    "d": " Pokrywanie kosztów specjalistycznych szkoleń, awans zawodowy, wyeksploatowana aparatura medyczna ",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Druga reguła komunikacyjna Berne'a zakłada, że: ",
+    "a": " Komunikacja może zachodzić bez zakłóceń, gdy transakcje są komplementarne",
+    "b": " Rytuał jest ciągiem prostych transakcji komplementarnych ",
+    "c": " Grę stanowi seria komplementarnych transakcji",
+    "d": " Komunikacja interpersonalna przerywa się wówczas, gdy nastąpi transakcja skrzyżowana,",
+    "correctAnswer": "d"
+  },
+  {
+    "Question": "Zdolności, potrzeby i motywacje oraz postawy i wartości konkretnego człowieka, które wnosi ze sobą do pracy nazywane są:",
+    "a": " Kompetencjami zawodowymi ",
+    "b": " Kotwicą kariery zawodowej",
+    "c": " Kompasem motywacji",
+    "d": " Planem rozwoju osobistego",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Dominujący czyli przeważający w toku porozumiewania się typ zachowań komunikowania dziecko przejmuje o-D$*$",
+    "a": " Rodzica przeciwnej płci ",
+    "b": " Rodzica tej samej płci ",
+    "c": " Obojga rodziców niezależnie ",
+    "d": " Żadnego z rodziców, typ zachowań....",
+    "correctAnswer": "b"
+  },
+  {
+    "Question": "Kto podejmuje decyzje w nagłej sytuacji kryzysowej:",
+    "a": " Rada Ministrów",
+    "b": " Minister Zdrowia,",
+    "c": " Minister Spraw Wewnętrznych,",
+    "d": " Kierownik Zarządzania Kryzysowego",
+    "correctAnswer": "c"
+  },
+  {
+    "Question": "Do obszaru osobistego praktyki opartej na dowodzie naukowym (EBP - Evidence-Based Practice) należy m.in. krytyczne myślenie (critical thinking) charakteryzujące się:",
+    "a": " Praktycznym podejściem, którego celem jest przedstawienie jednego rozwiązania pacjentowi",
+    "b": " Wyłącznie teoretycznym podejściem, którego celem jest wysunięcie hipotezy lub wniosków ",
+    "c": " Praktycznym podejściem, którego celem jest rozwiązanie problemu i dotarcie do prawdy ",
+    "d": " Nastawieniem krytycznym do wszelkich proponowanych zmian i nowych rozwiązań ",
+    "correctAnswer": "c"
+  }
+]

@@ -1,0 +1,829 @@
+1.
+Grupa osób wspólnie realizująca proces leczenia stanowi zespół terapeutyczny, którego cechami jest wspólnota celu działania i odpowiedzialności za jego realizację oraz:
+A$*$ sprawny obieg informacji, indywidualne ustalenie zakresu działań,
+-B$*$ sprawny obieg informacji, wspólne ustalenie zakresu działań (w tym indywidualnych obowiązków i uprawnień),
+C$*$ ustalenie zakresu obowiązków przez lidera, sprawny obieg informacji,
+D$*$ wspólne ustalenie zakresu działań (w tym indywidualnych obowiązków i uprawnień), wyłącznie elektroniczny obieg informacji. 
+
+.2
+W analizie SWOT silnymi stronami jednostki są przede wszystkim jej unikalne:
+A$*$ możliwości pozwalające osiągnąć najwyższą ocenę klientów i utrzymać ją w czasie,
+B$*$ zasoby, umiejętności mające wpływ na marketing usług i odróżniające ją w pozytywny sposób od innych firm,
+-C$*$ zasoby, umiejętności lub inne aspekty odróżniające ją w pozytywny sposób od innych firm,
+D$*$ możliwość identyfikacji zagrożeń wg prawdopodobieństwa zajścia,
+
+.3
+Jaka instytucja ustala ranking publikacji naukowych w Polsce?
+-A$*$ Ministerstwo Nauki i Szkolnictwa Wyższego,
+B$*$ każda uczelnia posiadająca prawo do nadawania stopni naukowych doktora i doktora habilitowanego,
+C$*$ każda rada wydziału posiadająca prawo do nadawania stopni naukowych doktora i doktora habilitowanego,
+D$*$ Ministerstwo Edukacji Narodowej.
+
+.4
+Asertywność:
+A$*$ zajmuje się relacjami dystansu i przestrzeni pomiędzy osobami,
+B$*$ zajmuje się gestami i pozycją ciała oraz ruchami oczu w czasie komunikacji,
+C$*$ pozwala na ustalenie celów do których powinniśmy dążyć,
+-D$*$ to zachowanie pozwalające przekazać nasze pragnienia, wartości i uczucia bez naruszania praw innych.
+
+.5
+Prawo dostępu do dokumentacji medycznej posiada/ją:
+A$*$ pacjent i jego rodzina,
+-B$*$ pacjent, jego przedstawiciel ustawowy bądź osoba przez niego upoważniona,
+C$*$ pacjent i jego najbliższa rodzina (małżonek, rodzice i dzieci),
+D$*$ tylko osoba upoważniona przez pacjenta,
+
+.6
+Pielęgniarka i położna wykonują zlecenia lekarskie:
+A$*$ tylko pisemne,
+B$*$ wszystkie, które zgodne są z jej sumieniem,
+C$*$ tylko zapisane w dokumentacji medycznej,
+-D$*$ zapisane w dokumentacji medycznej, chyba że pacjent znajduje się w stanie nagłego zagrożenia zdrowotnego - wówczas dopuszczalne jest wykonanie zlecenia ustnego.
+
+.7
+Usługa jako produkt przechodzi przez cztery fazy cyklu życi-A$*$ Modyfikacja jednej z faz – zwana Recykl może występować w fazie:
+A$*$ wprowadzenia,
+B$*$ wzrostu,
+C$*$ dojrzałości,
+-D$*$ spadku.
+
+.8
+Pielęgniarka nie udzieliła pomocy osobie, która nagle zasłabła na ulicy, lecz szybko oddaliła się z miejsca zdarzeni-A$*$ Zachowanie takie naraża ją na poniesienie odpowiedzialności:
+A$*$ pracowniczej i karnej,
+-B$*$ karnej i zawodowej,
+C$*$ pracowniczej,
+D$*$ pracowniczej, karnej i zawodowej.
+
+.9
+Komunikowanie pośrednie to komunikowanie:
+-A$*$ za pomocą środków masowego przekazu od nadawcy do odbiorcy,
+B$*$ za pomocą telefonu bądź smartfonu,
+C$*$ za pomocą e-maila bądź listu,
+D$*$ nadawcy przez inną osobę.
+
+.10
+Jedyną polską bazą indeksującą piśmiennictwo naukowe z obszaru medycyny i nauk o zdrowiu jest:
+-A$*$ Polska Bibliografia Lekarska,
+B$*$ Polska Biblioteka Lekarska,
+C$*$ Biblioteka Lekarska,
+D$*$ Główna Bibliografia Lekarska,
+
+.11
+Pacjent ma 17 lat i konieczne jest uzyskanie zgody na wykonanie zabiegu. Zgodę tę wyraż-A$*$
+A$*$ przedstawiciel ustawowy pacjenta,
+-B$*$ przedstawiciel ustawowy pacjenta oraz sam małoletni pacjent,
+C$*$ małoletni pacjent, ponieważ ukończył 16 lat,
+D$*$ przedstawiciel ustawowy pacjenta lub jego opiekun faktyczny.
+
+.12
+Benchmarking jest to metoda użyteczna w doskonaleniu jakości i polega nA$*$
+A$*$ wybiórczym procesie porównywania wniosków przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych),
+-B$*$ nieprzerwanym procesie porównywania wyników przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych),
+C$*$ nieprzerwanym procesie porównywania wydatków przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych), dyrektywny,
+D$*$ wybiórczym procesie porównywania wydatków
+przedsiębiorstwa np. szpitala, systemów zarządzania, procesów, produktów (usług medycznych).
+
+.13
+Od 1 stycznia 2016 roku, samodzielnie ordynować leki zawierające określone substancje czynne mogą pielęgniarki i położne, które ukończyły:
+A$*$ studia I stopnia pod warunkiem ukończenia kursu specjalistycznego w tym zakresie,
+B$*$ studia I stopnia lub posiadające tytuł specjalisty w dziedzinie pielęgniarstwa,
+-C$*$ studia II stopnia lub posiadające tytuł specjalisty w dziedzinie pielęgniarstwa, pod warunkiem ukończenia kursu specjalistycznego w tym zakresie,
+D$*$ studia II stopnia pod warunkiem ukończenia kursu dokształcającego w tym zakresie.
+
+.14
+Podstawowe wskaźniki modelu PATH obejmują m. in. wskaźniki efektywności (skuteczności i wydajności), do których zalicza się:
+-A$*$ średni czas pobytu (ostry zawał, udar, pozaszpitalne zapalenie płuc, złamanie kości udowej),
+B$*$ ciągłość opieki medycznej,
+C$*$ zakłucia personelu medycznego,
+D$*$ odsetek przyjęć po zabiegach w trybie jednodniowym m. in. zaćmy czy artroskopii.
+
+.15
+Czy przynależność pielęgniarki/położnej do samorządu zawodowego jest obowiązkowa?
+A$*$ nie, jest dobrowolna,
+B$*$ tak, jednak za zgodą Naczelnej Rady Pielęgniarek i Położnych można wykonywać zawód pielęgniarki bez przynależności do samorządu zawodowego,
+-C$*$ tak, przynależność pielęgniarek i położnych do samorządu jest obowiązkowa,
+D$*$ tak, przynależność pielęgniarek i położnych do
+samorządu jest obowiązkowa dla pielęgniarek i
+położnych, które posiadają wykształcenie przynajmniej na poziomie licencjata lub uzyskały tytuł specjalisty.
+
+.16
+Fundamentalne założenie w zarządzaniu ludźmi mówi, że najważniejszym zasobem organizacji jest/są:
+A$*$ infrastruktura,
+-B$*$ ludzie,
+C$*$ ludzie i infrastruktura,
+D$*$ przedsiębiorstwo.
+
+.16
+Fundamentalne założenia w zarządzaniu ludźmi mówi, że:
+A$*$ infrastruktura jest najważniejszym zasobem organizacji,
+-B$*$ ludzie są najważniejszym zasobem organizacji,
+C$*$ ludzie i infrastruktura są najważniejszym zasobem organizacji,
+D$*$ organizacja jest najważniejszym zasobem przedsiębiorstwa,
+
+.17
+WHO opracowało plakat „5 momentów higieny rąk”, który zawiera informacje na temat kiedy i dlaczego należy je wykonać. Informacje kiedy wykonać 5 momentów higieny rąk dotyczą sytuacji:
+A$*$ przed kontaktem z pacjentem, przed kontaktem z otoczeniem pacjenta, po kontakcie z pacjentem, po kontakcie z otoczeniem pacjenta, przed czystą, aseptyczną procedurą,
+B$*$ przed kontaktem z pacjentem, po kontakcie z pacjentem, przed czystą, aseptyczną procedurą, po wykonaniu czystej aseptycznej procedury, po kontakcie/narażeniu na płyny ustrojowe,
+-C$*$ przed kontaktem z pacjentem, po kontakcie z pacjentem, p o kontakcie z otoczeniem pacjenta, przed czystą, aseptyczną procedurą, po kontakcie/narażeniu na płyny ustrojowe,
+D$*$ przed kontaktem z pacjentem, po kontakcie z pacjentem, p o kontakcie z otoczeniem pacjenta, po wykonaniu aseptycznej procedury, po kontakcie/narażeniu na płyny ustrojowe.
+
+.18
+W strategiach przeciwdziałania nierównościom w zdrowiu przyjmowane są cele dotyczące:
+A$*$ poprawy przewidywanej długości trwania życia mieszkańców kraju,
+B$*$ poprawy stanu zdrowia grup społecznych żyjących w ubóstwie,
+C$*$ zmniejszania nierówności w zdrowiu w całym społeczeństwie,
+-D$*$ wszystkie odpowiedzi są prawidłowe.
+
+.19
+Zakażenie szpitalne, to zakażenie, które wystąpiło w związku z udzielaniem świadczeń zdrowotnych, w przypadku gdy chorob-A$*$
+A$*$ pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie nie dłuższym niż najdłuższy okres jej wylęgania,
+B$*$ nie pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie dłuższym niż najdłuższy okres jej wylęgania,
+-C$*$ nie pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie nie dłuższym niż najdłuższy okres jej wylęgania,
+D$*$ pozostawała w momencie udzielania świadczeń zdrowotnych w okresie wylęgania, albo wystąpiła po udzieleniu świadczeń zdrowotnych, w okresie dłuższym niż najdłuższy okres jej wylęgania,
+
+.20
+Praktyka pielęgniarska oparta na dowodach naukowych NIE obejmuje:
+A$*$ rozwiązywania problemów klinicznych poprzez decyzje oparte na wynikach badań,
+B$*$ uczestniczenia w konferencjach naukowych,
+C$*$ analizowania wyników publikacji naukowych,
+-D$*$ samodzielnego wykonywania zleceń lekarskich.
+
+.21
+Zasady pobierania, przechowywania i przeszczepiania komórek, tkanek i narządów określa ustaw-A$*$
+-A$*$ o pobieraniu, przechowywaniu i przeszczepianiu komórek, tkanek i narządów z 23 marca 2017 roku,
+B$*$ o działalności leczniczej z 15 kwietnia 2011 roku,
+C$*$ o prawach pacjenta z 19 listopada 2008 roku,
+D$*$ transplantacyjna z 10 kwietnia 2011 roku.
+
+.22
+Co to jest system peer review?
+-A$*$ ocena merytoryczna nadesłanych do redakcji tekstów poprzez fachową recenzję
+B$*$ metoda oceny dorobku naukowego związana z oceną sumarycznej wartości impact factor,
+C$*$ system oceny rankingowej czasopism naukowych oparty na analizie liczby cytowań,
+D$*$ system łącznej oceny rankingowej czasopism naukowych i autorów.
+
+.23
+Do negatywnych mierników zdrowia zaliczamy:
+A$*$ zachorowalność, śmiertelność, przyrost naturalny,
+B$*$ chorobowość, płodność kobiet, oczekiwaną długość życia,
+-C$*$ zachorowalność, chorobowość, umieralność,
+D$*$ zapadalność, śmiertelność, wskaźnik rozwoju ludzkości.
+
+.24
+Kierowanie przez delegowanie uprawnień przynosi konkretne korzyści, do których zaliczamy:
+-A$*$ oszczędzanie czasu kierownika,
+B$*$ oszczędzanie czasu pracownika oraz jego lepszą motywację,
+C$*$ rozwój przedsiębiorczości na etapie podstawowym,
+D$*$ efektywniejszą satysfakcję pracownika i przełożonego.
+
+.25
+Do kolejnych etapów postępowania podczas realizacji pielęgniarskiego projektu badawczego NIE należy:
+A$*$ określenie celu badań oraz sformułowanie problemu badawczego,
+B$*$ określenie hipotez, czyli twierdzeń naukowych, które dostarczą odpowiedzi na pytania wynikające z problemu badawczego,
+C$*$ operacjonalizacja problemów badawczych,
+-D$*$ komercjalizacja wyników badań naukowych.
+
+.26
+Pacjent pozywa pielęgniarkę/położną i domaga się odszkodowania za szkodę wyrządzoną w wyniku błędu medycznego. Ewentualna odpowiedzialność pielęgniarki/położnej będzie miała charakter odpowiedzialności:
+A$*$ karnej,
+B$*$ zawodowej,
+C$*$ pracowniczej,
+-D$*$ cywilnej.
+
+.27
+Czynnik alarmowy, to:
+A$*$ biologiczny czynnik chorobotwórczy, który jest przyczyną wyępowania chorób zakaźnych,
+-B$*$ biologiczny czynnik chorobotwórczy o szczególnej zjadliwości i oporności,
+C$*$ niepożądany objaw chorobowy pozostający w związku czasowym z wykonanym szczepieniem ochronnym,
+D$*$ biologiczny czynnik chorobotwórczy, który wywołuje zakażenia charakterystyczne dla osób o obniżonej odporności.
+
+.28
+W g H. Fayola, do funkcji kierowniczej (inaczej zwanej funkcją zarządzania) zaliczamy:
+-A$*$ prognozowanie, organizowanie, rozkazywanie, koordynowanie, kontrolowanie,
+B$*$ celowanie, organizowanie, koordynowanie, rozkazywanie, kontrolowanie,
+C$*$ przekształcenie, celowanie, koordynowanie, kontrolowanie,
+D$*$ prognozowanie, organizowanie, celowanie,
+przekształcenie, kontrolowanie.
+
+.29
+Konformizmem nazywamy podporządkowanie zachowania i sposobu myślenia jednostki spowodowane rzeczywistym lub wyobrażonym naciskiem. Na nasilenie lub osłabienie konformizmu wpływ-A$*$
+-A$*$ samoocena pielęgniarki, liczba autorytetów w grupie, podobne postawy współpracowników,
+B$*$ wykształcenie, poczucie bezpieczeństwa, rodzaj ukończonej szkoły,
+C$*$ wykształcenie, umiejętność skutecznego porozumiewania się, miejsce pracy,
+D$*$ samoocena pielęgniarki, rodzaj ukończonej szkoły, podobne postawy współpracowników.
+
+.30
+Współczynnik oddziaływania Impact Factor (IF) dotyczy:
+-A$*$ oceny czasopisma naukowego,
+B$*$ oceny pracownika naukowego,
+C$*$ oceny jednostki naukowej,
+D$*$ oceny szpitala klinicznego.
+
+.31
+Wskaż, który typ badań klinicznych charakteryzuje się najwyższą wiarygodnością:
+-A$*$ meta-analiza,
+B$*$ kliniczne badanie z randomizacją,
+C$*$ kliniczne badanie obserwacyjne,
+D$*$ studium przypadku.
+
+.32
+Zaraźliwość, to:
+A$*$ wniknięcie do organizmu i rozwój w nim biologicznego czynnika chorobotwórczego,
+-B$*$ zdolność biologicznego czynnika chorobotwórczego do przeżycia i namnażania oraz wywołania objawów chorobowych po przeniesieniu go do organizmu innego człowieka lub zwierzęcia,
+C$*$ zdolność biologicznego czynnika chorobotwórczego do wywołania ciężkiej choroby,
+D$*$ zdolność wniknięcia, namnożenia się oraz uszkodzenia tkanek zainfekowanego organizmu przez określony biologiczny czynnik chorobotwórczy.
+
+.33a
+Jan Kowalski zamieścił w Internecie ogłoszenie o treści: "Jestem młody i zdrowy; sprzedam nerkę; mogę uratować komuś życie; cena do negocjacji". Czyn taki:
+A$*$ jest prawnie dozwolony,
+B$*$ nie jest zabroniony, lecz gdyby doszło do "transakcji" stanowiłby przestępstwo,
+C$*$ jest wykroczeniem,
+-D$*$ jest przestępstwem.
+
+.33b
+Zamieszczone w internecie ogłoszenie o treści: "Jestem młody i zdrowy, sprzedam nerkę, mogę uratować komuś życie, cena do negocjacji". Czyn taki jest:
+A$*$ prawnie dozwolony,
+B$*$ dozwolony, lecz gdyby doszło do "transakcji" stanowiłby przestępstwo,
+C$*$ wykroczeniem,
+-D$*$ przestępstwem.
+
+.34
+Do zakłóceń w komunikacji interpersonalnej, niezależnych od osób uczestniczących w relacji, należą:
+A$*$ brak kontaktu wzrokowego, odbieranie telefonu podczas rozmowy z pacjentem, hałas,
+B$*$ światło pulsujące z dużą częstotliwością, obecność osób trzecich podczas badania, hałas,
+C$*$ milczenie, grupowe zbieranie wywiadu przez studentów, hałas,
+-D$*$ światło pulsujące z dużą częstotliwością, zbyt niska temperatura otoczenia, hałas.
+
+.35
+Koncentrowanie się w relacjach z innymi ludźmi wyłącznie na ich potrzebach, z jednoczesnym nierespektowaniem własnych, charakteryzuje styl:
+A$*$ egocentryczny,
+B$*$ autopsychiczny,
+-C$*$ allocentryczny,
+D$*$ allopsychiczny.
+
+.36
+Fazy komunikowania terapeutycznego pomagają osiągnąć cel terapeutyczny. Zachęcanie pacjenta do opisu przeżyć, do koncentracji i eksploracji poprzez wypowiedzi typu: „proszę opowiedzieć o tym coś więcej”, należy do fazy:
+A$*$ porządkującej,
+B$*$ podtrzymującej,
+-C$*$ pogłębiającej,
+D$*$ zapoczątkowującej.
+
+.37
+Przyrost naturalny ludności, to:
+A$*$ różnica między liczbą urodzeń żywych i saldem migracji (emigracji i imigracji) w danym okresie,
+B$*$ różnica między liczbą urodzeń żywych i zgonów dzieci w okresie noworodkowym w ciągu roku,
+-C$*$ różnica między liczbą urodzeń żywych i zgonów w danym okresie,
+D$*$ różnica między liczbą urodzeń żywych a liczbą zgonów i saldem migracji w danym okresie.
+
+.38
+Do narzędzi stosowanych w procesie doskonalenia jakości zaliczamy m.in. Diagram Ischikawa – diagram przyczynowo-skutkowy. Wykres ten wskazuje na główne przyczyny problemu:
+-A$*$ człowiek, metody, zarządzanie, materiał, maszyny, środowisko,
+B$*$ pacjent, personel, organizacja, płace, środowisko, metody,
+C$*$ kadry, płace, aparatura i sprzęt medyczny, metody, środowisko, organizacja,
+D$*$ narzędzia, materiały, kadry, problem, środowisko, metoda,
+
+.39
+Co to jest "przewinienie zawodowe" ?
+A$*$ naruszenie zasad etyki zawodowej,
+-B$*$ naruszenie zasad etyki zawodowej lub przepisów dotyczących wykonywania zawodu,
+C$*$ naruszenie przepisów dotyczących wykonywania zawodu,
+D$*$ popełnienie przestępstwa związanego z wykonywaniem zawodu pielęgniarki.
+
+.40
+Informowanie pacjenta przez pielęgniarkę/położną o zamiarze wykonania iniekcji domięśniowej odbywa się na poziomie:
+A$*$ relacyjnym,
+B$*$ relaksacyjnym,
+-C$*$ treściowym,
+D$*$ rekreacyjnym.
+
+.41
+W rozważaniach teoretycznych nad problematyką jakości w opiece zdrowotnej Avedis Donabedian określił trzy wymiary jakości: struktura, proces, efekt (wynik). Do procesu zaliczamy:
+A$*$ kwalifikacje i rozmieszczenie personelu,
+B$*$ system finansowy i nagradzania,
+-C$*$ relacje zachodzące wewnątrz grupy świadczeniodawców/usługodawców,
+D$*$ poprawę zdrowia i kondycji zdrowotnej klienta,
+
+.42
+Publikacja, która napisana jest w sposób umożliwiający powtórzenie doświadczenia lub obserwacji innego autora to:
+-A$*$ praca oryginalna,
+B$*$ praca kazuistyczna,
+C$*$ praca poglądowa,
+D$*$ meta-analiza,
+     
+.43a
+Pielęgniarka ma prawo odmówić wykonania zlecenia lekarskiego, tylko kiedy jest:
+A$*$ niezgodne z jej sumieniem,
+B$*$ niezgodne z zakresem posiadanych kwalifikacji,
+-C$*$ niezgodne z jej sumieniem lub z zakresem posiadanych kwalifikacji,
+D$*$ niezgodne z jej sumieniem lub aktualną wiedzą naukową w dziedzinie pielęgniarstwa,
+
+.43b
+Pielęgniarka ma prawo odmówić wykonania zlecenia lekarskiego, tylko kiedy jest niezgodne z jej:
+A$*$ sumieniem,
+B$*$ zakresem posiadanych kwalifikacji,
+-C$*$ sumieniem lub z zakresem posiadanych kwalifikacji,
+D$*$ sumieniem lub aktualną wiedzą naukową w dziedzinie pielęgniarstwa,
+
+.44
+Do triady błędnych postaw terapeutycznych leżących również po stronie pielęgniarki, zalicza się:
+A$*$ błąd maski, błąd prokuratorski, błąd naukowej obiektywności,
+B$*$ błąd maski, błąd sędziego, błąd naukowejsubiektywności,
+-C$*$ błąd maski, błąd sędziego, błąd naukowej obiektywności,
+D$*$ błąd maski, błąd zawodowy, błąd naukowej obiektywności.
+
+.45
+Motywowanie polega na zespole oddziaływań zmierzających, do:
+A$*$ skłaniania pracowników do podejmowania i realizacji przyszłościowych oczekiwanych ale z równoczesnym ukazaniem sankcji – w celu lepszej motywacji, jeżeli nie wykona poleconych celów, misji i zadań,
+B$*$ skłaniania pracowników do podejmowania i realizacji oczekiwań kolegów, podwładnych oraz przełożonych do ich realizacji,
+C$*$ nakłaniania pracowników do podejmowania i realizacji oczekiwań podwładnych oraz przełożonych do ich realizacji w zamian za docelowe przyznanie pracownikom pieniężnej nagrody,
+-D$*$ efektywnego skłaniania pracowników do podejmowania i realizacji oczekiwanych celów, funkcji i zadań,  także przyjmowania preferowanych przez motywującego postaw i zachowań.
+
+.46
+,Podporządkowanie pacjenta w imię wyższej sprawy np. regulaminu oddziału charakterystyczne jest dla stylu komunikowani-A$*$
+-A$*$ egocentrycznego,
+B$*$ egoistycznego,
+C$*$ egalitarnego,
+D$*$ allocentrycznego.
+
+.47
+Badanie obserwacyjne to badanie, w którym:
+-A$*$ ekspozycja pacjentów na dany czynnik lub interwencję zależy od zbiegu okoliczności,
+B$*$ ekspozycja pacjentów na dany czynnik lub interwencję zależy od badaczy,
+C$*$ ekspozycja pacjentów na dany czynnik lub interwencję zależy od pacjentów,
+D$*$ ekspozycja pacjentów na dany czynnik lub interwencję zależy równocześnie od badaczy i pacjentów.
+
+.48
+Celem reklamy jest:
+A$*$ jedynie osiągnięcie wzrostu sprzedaży firmy,
+-B$*$ dotarcie do świadomości klientów tak, aby zainteresować ich ofertą i skłonić do zakupu,
+C$*$ zwiększenie stopnia znajomości otoczenia firmy,
+D$*$ utrzymanie wzrostu sprzedaży firmy na stałym poziomie.
+
+.49
+Praktyka pielęgniarska oparta na dowodach naukowych definiowana jest jako wykorzystanie najlepszych dowodów naukowych przy podejmowaniu decyzji dotyczących wysokiej jakości opieki nad pacjentem. Dowody te NIE powinny być dostarczane poprzez:
+A$*$ prowadzenie badań naukowych prowadzonych przez pielęgniarki,
+-B$*$ skalę oceniającą praktyczną wartość badań medycznych,
+C$*$ analizę piśmiennictwa naukowego,
+D$*$ obserwację skuteczności wykonywanych procedur medycznych.
+
+.50a
+Ustawa o samorządzie zawodowym pielęgniarek i położnych z dnia 1 lipca 2011 r. reguluje:
+A$*$ zasady wykonywania zawodu pielęgniarki i położnej,
+B$*$ zakres świadczeń, jakie pielęgniarka i położna może wykonywać samodzielnie bez zlecenia lekarza,
+-C$*$ zasady ponoszenia odpowiedzialności zawodowej przez pielęgniarkę i położną,
+D$*$ obowiązki pielęgniarki/położnej wobec pacjenta przy uzyskiwaniu świadomej zgody na świadczenia lekarskie.
+
+.50b
+Zasady odpowiedzialności zawodowej pielęgniarek i położnych określA$*$
+A$*$ Kodeks etyki zawodowej pielęgniarek i położnych Rzeczypospolitej Polskiej
+B$*$ Ustawa o zawodach pielęgniarek i położnych
+-C$*$ Ustawa o samorządzie pielęgniarek i położnych
+D$*$ Ustawa o działalności leczniczej
+
+.51
+Komunikacja niewerbalna charakteryzuje się:
+A$*$ systemem znaków,
+B$*$ niepowiązaniem systemu i formy przekazu,
+C$*$ precyzyjnością komunikatu,
+-D$*$ ciągłością trwania przez cały czas interakcji.
+
+.52
+Badania epidemiologiczne opisowe, służą do:
+-A$*$ opisu częstości występowania choroby w populacji na podstawie określonych mierników,
+B$*$ opisu związków choroby z czynnikami, które mogą wpływać na jej częstość lub przebieg,
+C$*$ szukania w przeszłości prawdopodobnej przyczyny choroby,
+D$*$ zbierania informacji o przyczynach choroby, co pozwala n a najbardziej bezpośredni pomiar ryzyka jej wystąpienia,
+
+.53
+Czynniki utrudniające powstanie relacji terapeutycznej występujące po stronie pacjenta, to wszystkie niżej wymienione z WYJĄTKIEM:
+A$*$ braku motywacji do leczenia,
+B$*$ nieufności, często łączącej się z podejrzliwością i niechęcią do pełnej współpracy,
+-C$*$ błędem maski, błędem sędziego, błędem naukowej obiektywności,
+D$*$ agresji i manipulacji.
+
+.54
+Według Evidence-Based Medicine decyzji klinicznych NIE powinno podejmować się na podstawie:
+A$*$ systemu wartości i preferencji pacjenta,
+B$*$ uciążliwości procedury medycznej,
+C$*$ kosztów procedury medycznej,
+-D$*$ tylko danych naukowych.
+
+.55
+Sfera informacyjna w zarządzaniu jakością czyli zakres wiedzy jaki powinien posiadać pacjent, w tym m. in. profilaktyka, jakie leki brać, jak często, jak stosować, jak postępować po badaniu, czy zabiegu, zawiera bariery, do których zaliczamy:
+-A$*$ brak komunikacji pacjent a lekarz czy pielęgniarka/położna,
+B$*$ brak komunikacji dyrekcja – personel,
+C$*$ nieprawidłowy mechanizm finansowania ze strony płatnika,
+D$*$ nieprawidłowe finansowanie ze strony budżetu państwa,
+
+.56
+Który typ badań klinicznych charakteryzuje się najniższą wiarygodnością?
+-A$*$ badanie kazuistyczne,
+B$*$ kliniczne badanie z randomizacją,
+C$*$ kliniczne badanie obserwacyjne,
+D$*$ meta-analiza,
+
+.58
+Prawidłowo prowadzona rekrutacja i selekcja stanowią jedno z najważniejszych zadań w obszarze pracowników firmy usługowej. Dział kadr poszukuje kandydatów, korzystając często z usług specjalistycznych agencji wyszukujących odpowiedniej osoby, zamieszczając ogłoszenie w prasie, czy prowadząc rekrutację wśród studentów. Proces selekcji kandydatów obejmuje:
+A$*$ sporządzenie dokładnego opisu stanowiska, przyciąganie kandydatów,
+-B$*$ określenie profilu osobistego wg kryteriów dyrekcji, rozmowa kwalifikacyjna,
+C$*$ opis stanowiska i kryteria psychologiczne,
+D$*$ określenie profilu osobistego i socjalizacja przyszłego kandydata,
+
+.59
+Zgodnie z „Wytycznymi WHO dotyczącymi higieny rąk w opiece zdrowotnej” w zakresie wykorzystania rękawi-C$*$
+-A$*$ należy zawsze używać rękawic, gdy można racjonalnie oczekiwać, że dojdzie do kontaktu z krwią lub innym potencjalnie zakaźnym materiałem, błoną śluzową lub naruszoną powłoką skóry,
+B$*$ używając rękawic, nie należy ich zmienić, jeżeli podczas wykonywania opieki nad pacjentem przechodzi się od zakażonych powierzchni ciała do innych części ciała pacjenta lub przedmiotów w jego otoczeniu,
+C$*$ do wszystkich zabiegów przy jednym pacjencie należy użyć jednej pary rękawic,
+D$*$ należy stosować wszystkie wymienione wyżej wytyczne.
+
+.60
+Komunikacja werbalna, to:
+-A$*$ komunikacja za pomocą słów,
+B$*$ komunikacja za pomocą gestów i min,
+C$*$ komunikowanie się za pomocą wysokości tonów,
+D$*$ komunikowanie się za pomocą ubioru i innych atrybutów.
+
+.61
+Na proces planowania zatrudnienia składają się następujące etapy:
+A$*$ ustalenie celów i planów rozwojowych, ale i podaży i popytu usług medycznych,
+-B$*$ opracowanie prognozy podaży i popytu personelu w oparciu o analizę danych, przewidywanych trendów w ww. zakresie z uwzględnieniem planów sprzedaży, celów organizacji i planów rozwojowych oraz analiz wewnętrznych i zewnętrznych rynku pracy,
+C$*$ porównanie przewidywanych wielkości popytu i podaży (pracy ale i usług medycznych, aparatury i sprzętu medycznego) oraz opracowanie (w oparciu o uzyskane wyniki) i wdrożenie planów i programów obsady stanowisk,
+D$*$ kontrola oraz rozmowa z kandydatami.
+
+.62
+Indeks Hirsch-A$*$
+-A$*$ jest związany z oceną autora publikacji naukowej,
+B$*$ jest związany z oceną czasopisma naukowego,
+C$*$ dotyczy sposobu indeksacji publikacji naukowych przez Ministerstwo Nauki i Szkolnictwa Wyższego,
+D$*$ dotyczy sposobu indeksacji publikacji naukowych w Polskiej Bibliografii Lekarskiej.
+
+.63
+W jakim zakresie pacjent, który nie ukończył 16 lat ma prawo do informacji o swoim stanie zdrowia, rozpoznaniu, proponowanych oraz możliwych metodach diagnostycznych i leczniczych, dających się przewidzieć następstwach ich zastosowania albo zaniechania, wynikach leczenia oraz rokowaniu?
+A$*$ w pełnym zakresie, ponieważ konieczne jest to do uzyskania świadomej zgody,
+B$*$ w zakresie ograniczonym dobrem małoletniego pacjenta i jego stopniem rozwoju,
+-C$*$ w zakresie i formie potrzebnej do prawidłowego przebiegu procesu diagnostycznego lub terapeutycznego,
+D$*$ w zakresie, w jakim informacji tej udzielą mu jego przedstawiciele ustawowi (rodzice), którym przysługuje pełna informacja,
+
+.64
+W skład zespołu terapeutycznego wchodzi zawsze:
+-A$*$ lekarz, pielęgniarka, pacjent,
+B$*$ lekarz, pielęgniarka, pacjent, psycholog,
+C$*$ pacjent, psycholog, pielęgniarka, kapelan,
+D$*$ lekarz, pacjent, rodzina pacjenta, pielęgniarka,
+
+.65
+Relacja interpersonalna, to:
+A$*$ inaczej rozmowa pomiędzy, co najmniej trzema osobami,
+-B$*$ wzajemny intelektualny, emocjonalny, duchowy i fizyczny stosunek dwóch osób,
+C$*$ zjawisko dynamiczne między ludźmi odbywające się tu i teraz,
+D$*$ zachodzi tylko pomiędzy bliskimi osobami.
+
+.66
+Zasady wykonywania zawodu pielęgniarki/położnej uregulowane są w :
+-A$*$ ustawie o zawodach pielęgniarki i położnej z dnia 15 lipca 2011 r.,
+B$*$ ustawie o samorządzie zawodowym pielęgniarek i położnych z dnia 1 lipca 2011 r.,
+C$*$ ustawie o działalności leczniczej z 15 kwietnia 2011 r.,
+D$*$ ustawie o zawodach pielęgniarki i położnej z dnia 15 stycznia 1996 r.
+
+.67
+Zgodnie z opracowaniem „Wytyczne WHO dotyczące higieny rąk w opiece zdrowotnej - podsumowanie”, naturalne paznokcie należy krótko obcinać, końcówki paznokci nie mogą być dłuższe niż:
+A$*$ 0,2 cm,
+B$*$ 0,3 cm,
+C$*$ 0,4 cm,
+-D$*$ 0,5 cm.
+
+.68
+Komunikowanie bezpośrednie ma charakter interakcyjny, to znaczy:
+A$*$ przebiega tylko pomiędzy osobami dobrze się znającymi,
+B$*$ przebiega za pośrednictwem mediów społecznościowych,
+-C$*$ dotyczy przynajmniej dwóch osób wchodzących we wzajemne relacje,
+D$*$ przebiega za pomocą ściśle określonego kodu
+
+.69
+Outsourcing jest narzędziem zarządzania związanym z przekazywaniem części procesów i działań na zewnątrz ściśle związanym z lean managementem, gdzie redukcja i ograniczenia obejmują kompleksową działalność przedsiębiorstw-A$*$ Alternatywny sposób zapewnienia wzrostu wydajności dzięki udoskonaleniu działalności w jednej dziedzinie, a następnie fazie wykonywania jej na rzecz innych firm, to:
+A$*$ co-sourcing,
+-B$*$ insourcing,
+C$*$ outsourcing usług,
+D$*$ zlecenie funkcji.
+
+.70
+Standardy etyczne prowadzenia badań naukowych w medycynie, stawiające dobro uczestnika badania na pierwszym miejscu, określ-A$*$
+A$*$ Deklaracja z Ałma-Aty,
+-B$*$ Deklaracja Helsińska,
+C$*$ Deklaracja z Dżakarty,
+D$*$ Karta Ottawska,
+
+.71
+Skala Sacketta jest skalą oceniającą:
+-A$*$ metodologiczną wartość badań medycznych,
+B$*$ praktyczną wartość badań medycznych,
+C$*$ nowatorskość badań medycznych,
+D$*$ celowość badań medycznych.
+
+.72
+Potwierdzenie odbioru informacji od pacjenta ich parafrazowanie, odzwierciedlanie uczuć pacjenta, konkretyzowanie jego wypowiedzi, są to niektóre techniki wykorzystywane w metodzie:
+A$*$ autentycznej postawy,
+B$*$ asertywnego zachowania,
+-C$*$ aktywnego słuchania,
+D$*$ empatycznego podejścia,
+
+.73
+Parafrazowanie to:
+A$*$ okazywanie empatycznego zrozumienia,
+B$*$ obserwowanie sygnałów niewerbalnych,
+-C$*$ powtarzanie za pacjentem niektórych istotnych elementów jego wypowiedzi,
+D$*$ przyjmowanie akceptującej postawy wobec osoby, z którą się komunikujemy.
+
+.74
+Kodeks etyki zawodowej pielęgniarki i położnej Rzeczypospolitej Polskiej zawiera szereg sformułowań odnoszących się do cech charakteru jakie powinna posiadać pielęgniarka/położna i są to m.in.:
+-A$*$ życzliwość, wyrozumiałość, cierpliwość,
+B$*$ życzliwość, dobroduszność, naiwność,
+C$*$ wyrozumiałość, konformizm, życzliwość,
+D$*$ cierpliwość, małostkowość, życzliwość.
+
+.75
+Normy etyki zawodowej zawarte w Kodeksie etyki zawodowej pielęgniarki i położnej Rzeczypospolitej Polskiej mają za zadanie:
+A$*$ służyć jedynie jako podstawa karania,
+B$*$ być bezrefleksyjnie stosowane,
+C$*$ chronić interesy zawodowe tylko pielęgniarek,
+-D$*$ stać na straży bezpieczeństwa pacjenta,
+
+.76
+Który model komunikacji w grupie sprzyja efektywnemu komunikowaniu się poprzez scentralizowany przepływ informacji:
+A$*$ koła,
+-B$*$ gwiazdy,
+C$*$ łańcucha,
+D$*$ raka,
+
+.77
+Model transformacji demograficznej zakłada, że wartości kluczowych parametrów opisujących populację, które kształtują jej strukturę demograficzną zmieniają się:
+-A$*$ w zależności od etapu rozwoju społeczno-gospodarczego,
+B$*$ tylko w zależności od poprawy warunków bytowania oraz postępu w medycynie,
+C$*$ tylko w zależności od stabilizacji w ruchach naturalnych ludności przy niskim poziomie umieralności i rozrodczości,
+D$*$ tylko w zależności od współczynnika dzietności i długości trwania życia,
+
+.78
+Przy formułowaniu obowiązków pracowniczych, świadomość hierarchii zadań przypisanych danemu stanowisku, NIE odnosi się do zasady:
+A$*$ przystosowalności,
+B$*$ należytej szczegółowości,
+-C$*$ nepotyzmu,
+D$*$ doskonalenia kadr.
+
+.79
+Proces, w którym dobre lub złe wrażenie dotyczące jednego przymiotu rzutuje na całość oceny, to:
+-A$*$ efekt aureoli,
+B$*$ stereotyp,
+C$*$ nastawienie,
+D$*$ wpływ emocji.
+
+.80
+Czynniki wewnętrzne warunkujące szybkość adaptacji zawodowej pielęgniarki, to:
+-A$*$ osobowość, kwalifikacje zawodowe, stan fizyczny,
+B$*$ kwalifikacje zawodowe, warunki fizyczne otoczenia,
+C$*$ przejrzysta struktura organizacyjna, osobowość przełożonego,
+D$*$ stan fizyczny, stan wyposażenia organizacji w aparaturę medyczną.
+
+.81
+Evidence-Based Medicine (EBM -  uznaje się na podstawie literatury przedmiotu, że jest to:
+A$*$ świadome, jasne i przemyślane zastosowanie najlepszego aktualnie dowodu na podstawie analiz medycznych czasopism anglojęzycznych,
+B$*$ nieświadome, jasne i przemyślane zastosowanie najlepszego aktualnego dowodu w podejmowaniu decyzji dotyczących pacjentów danego oddziału,
+C$*$ przemyślane zastosowanie eksperymentu badawczego, w celu podjęcia jak najlepszej decyzji dotyczącej konkretnego pacjenta,
+-D$*$ świadome, jasne i przemyślane zastosowanie najlepszego aktualnego dowodu w podejmowaniu decyzji dotyczących konkretnego pacjent-A$*$
+
+.82
+Analiza zewnętrzna dokumentu NIE polega na,
+A$*$ ustaleniu czasu, warunków i okoliczności, w jakich powstał,
+B$*$ uzupełnieniu analizy wewnętrznej,
+C$*$ określeniu wpływu, jaki wywarł dokument na przebieg określonych wydarzeń,
+-D$*$ dokładnym poznaniu treści dokumentu.
+
+.83
+Rzecznikiem odpowiedzialności zawodowej pielęgniarek i położnych może zostać:
+-A$*$ pielęgniarka, położna ze średnim wykształceniem i nieprzerwanym 10 letnim stażem pracy w zawodzie, wybrana na zjeździe pielęgniarek i położnych,
+B$*$ pielęgniarka, położna, niezależnie od jej wykształcenia, z nienaganną opinią, mianowana przez Departament Pielęgniarek i Położnych Ministerstwa Zdrowia,
+C$*$ każda pielęgniarka, położna, która zostanie powołana przez Przewodniczącą Naczelnego Sądu Pielęgniarek i Położnych,
+D$*$ pielęgniarka, połozna z tytułem magister pielęgniarstwa, położnictwa i nieprzerwanym rocznym stażem pracy w szpitalu, wybrana na zjeździe pielęgniarek i położnych.
+
+.84
+Niespójność komunikacyjna, jeden z głównych czynników zakłócających proces komunikowania, to:
+A$*$ brak spójności pomiędzy treściami zawartymi w wypowiedzi,
+-B$*$ brak spójności pomiędzy komunikatami werbalnymi i niewerbalnymi,
+C$*$ brak odbioru komunikatu przez odbiorcę,
+D$*$ niezdecydowanie w wypowiedzi nadawcy.
+
+.85
+Na zdrowie ludzi w starszym wieku mają wpływ:
+A$*$ przebyte choroby,
+B$*$ praca z czynnikami szkodliwymi,
+C$*$ stosunki międzyludzkie w pracy i w domu,
+-D$*$ wszystkie odpowiedzi są prawidłowe(?)
+
+.86
+Najczęstsze zakażenia wywoływane przez Staphylococcus epidermidis, to:
+-A$*$ bakteriemie związane z obecnością linii naczyniowej
+B$*$ zakażenia skóry i tkanek miękkich,
+C$*$ zakażenia układu moczowego u chorych zacewnikowanych,
+D$*$ odrespiratorowe zapalenie płuc,
+
+.87
+Opieka pielęgniarska oparta na faktach - EBNP (Evidence-Based Nursing Practice) dotyczy:
+-A$*$ podejmowania decyzji w opiece nad pacjentem na podstawie wiarygodnych danych naukowych,
+B$*$ prowadzenia badań w warunkach laboratoryjnych, a następnie wdrażanie ich w warunkach szpitalnych,
+C$*$ podejmowania decyzji zarządczych na podstawie różnorodnych danych naukowych,
+D$*$ podejmowania decyzji w opiece nad pacjentem na podstawie wybiórczych danych naukowych.
+
+.88
+PubMed/Medline, Cochrane Nursing Care, Cochrane Summaries, są to nazwy:
+-A$*$ internetowych wyszukiwarek z zakresu medycyny,
+B$*$ czasopism wydawanych w formie elektronicznej,
+C$*$ anglojęzycznych czasopism z zakresu pielęgniarstwa,
+D$*$ internetowych księgarni medycznych.
+
+.89
+Skrót schematu pytania klinicznie istotnego brzmi PICO, w którym pierwsza litera P oznacz-A$*$
+-A$*$ pacjent,
+B$*$ porównanie,
+C$*$ próba,
+D$*$ punkt końcowy.
+
+.90
+Metody epidemiologiczne stosuje się do:
+A$*$ Badania zjawisk zdrowotnych
+B$*$ Weryfikacji działalności służby zdrowia
+C$*$ Badania działań promocyjnych
+-D$*$ Badania zjawisk zdrowotnych i weryfikacji działalności służby zdrowia,
+
+.91
+Pielęgniarka, położna, uzyskująca tytuł specjalisty w danej dziedzinie ma obowiązek:
+A$*$ W ciągu 14 dni od dnia przeprowadzenia postępowania egzaminacyjnego zawiadomić właściwą okręgową  radę pielęgniarek i położnych o ukończeniu szkolenia specjalizacyjnego
+-B$*$ Nie później niż w terminie 14 dni od dnia powstania zmiany zawiadomić właściwą okręgową radę pielęgniarek i położnych o ukończeniu szkolenia specjalizacyjnego
+C$*$ Nie później niż w terminie  7 dni od dnia przeprowadzenia postępowania egzaminacyjnego zawiadomić pracodawcę, który powiadamia właściwą okręgową radę pielęgniarek i położnych o ukończeniu szkolenia specjalizacyjnego
+D$*$ Jeśli korzystała z miejsca szkoleniowego dotowanego przez Ministerstwo Zdrowia, w ciągu 7 dni od dnia powstania zmiany zawiadomić właściwą okręgową radę pielęgniarek i położnych 
+
+.92
+Pielęgniarka/położna może prowadzić badania naukowe i:
+A$*$ nie powinna ich upowszechniać poza periodykami pielęgniarskimi,
+B$*$ może je udostępnić pod warunkiem uzyskania zgody przełożonego,
+C$*$ może je udostępnić po uzyskaniu zgody od samorządu zawodowego,
+-D$*$ powinna je upowszechniać bez znamion sensacji.
+
+.93
+Stanowiska kierownicze w pielęgniarstwie obsadzane w drodze postępowania konkursowego, regulowane są przez ustawę o:
+A$*$ Zawodach pielęgniarki i położnej
+B$*$ Samorządzie pielęgniarek i położnych
+-C$*$ Działalności leczniczej
+D$*$ Związkach zawodowych
+
+.94
+Proksemika zajmuje się:
+-A$*$ relacjami dystansu i przestrzeni pomiędzy komunikującymi się osobami
+B$*$ fizycznym wyglądem uczestników dialogu
+C$*$ tempem mówienia podczas podczas wystąpienia publicznego
+D$*$ barwą głosu komunikujących się ze sobą osób
+
+.95
+Komunikacja, a więc wymiana różnego rodzaju informacji, zachodzi na wielu poziomach. Najbardziej bliskim człowiekowi poziomem, sięgającym w jego sferę osobistą, jest poziom:
+-A$*$ intrapersonalny,
+B$*$ interpersonalny,
+C$*$ społeczny,
+D$*$ grupowy.
+
+.96
+Psychoterapia elementarna to:
+A$*$ samodzielna metoda leczenia poprzez wykorzystanie komunikacji terapeutycznej,
+B$*$ specjalistyczna metoda leczenia wykorzystująca środki psychologiczne,
+-C$*$ sposób komunikowania się z pacjentem wspomagający leczenie i pielęgnację,
+D$*$ wąski dział psychoterapii.
+
+.97
+Analiza czynników innych niż zdrowotne, które mogą mieć wpływ na stan zdrowia na poziomie województw została pogrupowana w trzech kategoriach: sytuacja demograficzna, rynek pracy i edukacja, sytuacja gospodarcza i stan gospodarstw domowych. Do oceny sytuacji demograficznej w województwach wykorzystane zostały dwa wskaźniki, są to:
+-A$*$ wskaźnik feminizacji i obciążenia demograficznego osobami starszymi,
+B$*$ wskaźnik zatrudnienia i obciążenia demograficznego osobami starszymi,
+C$*$ wskaźnik feminizacji i wykształcenia,
+D$*$ wskaźnik zatrudnienia i wykształcenia,
+
+.98
+Dokument w którym znajdują się opisy wzajemnego oddziaływania między procesami systemu zarządzania jakością nazywa się:
+A$*$ Specyfikacją
+B$*$ Planem jakości
+-C$*$ Księgą jakości
+D$*$ Procedurą
+
+.99
+W ocenie kompetencji miękkich pracownika uwzględnisz:
+A$*$ wygląd zewnętrzny, postawę, wykształcenie
+-B$*$ zachowanie, komunikację, postawę, wartości
+C$*$ wartości, sposób poruszania, wykształcenie
+D$*$ wszystkie odpowiedzi są błędne.
+
+.100
+W oficjalnych kryteriach oceny ofert dla świadczeń medycznych składanych płatnikowi (obecnie NFZ), nie znajdują się kryteri-A$*$
+A$*$ Negatywny wizerunek i zasoby ludzkie 
+B$*$ Szkody kliniczne i wyposażenie w aparaturę medyczną
+C$*$ Szkody kliniczne i certyfikaty jakościowe 
+-D$*$ Negatywny wizerunek i szkody kliniczne 
+
+.101
+Do technik obserwacji bezpośrednich zmierzających do ustalenia pracochłonności danego zadania, zalicza się:
+A$*$Fotografię dnia, chronometraż, obserwacje przełożonych 
+B$*$Chronometraż, obserwację migawkową, technikę szacunkową
+-C$*$Fotografię dnia, chronometraż, obserwację migawkową
+D$*$Fotografię zespołu, chronometraż, obserwację migawkową
+
+.102
+Celowe użycie milczenia jest ważnym narzędziem terapeutycznym, stymulującym napięcie konieczne do ujawnienia ważnych informacji i pogłębienia już poznanych. Jest ono charakterystyczne dla fazy:
+A$*$ porządkującej komunikowanie,
+-B$*$ podtrzymującej komunikowanie,
+C$*$ pogłębiającej komunikowanie,
+D$*$ zapoczątkowującej komunikowanie,
+
+.103
+Do najważniejszych modyfikowalnych czynników ryzyka chorób przewlekłych w Polsce należą:
+-A$*$ palenie tytoniu, nadciśnienie tętnicze, wysoki poziom cholesterolu i podwyższony poziom glukozy we krwi, nadwaga i otyłość, niska aktywność fizyczna, niskie spożycie warzyw i owoców, nadmierne spożycie alkoholu,
+B$*$ umieralność niemowląt, umieralność dzieci i młodzieży w wieku 1-19 lat, nadwaga i otyłość, niska aktywność fizyczna, niskie spożycie warzyw i owoców, poprawa opieki medycznej, przyjazne środowiska dorastania,
+C$*$ umieralność ludności Polski w wieku 65 lat i więcej, miejsce zamieszkania, ubóstwo, standaryzowane współczynniki zgonów, rozkład regionalny ryzyka zgonu, palenie tytoniu, nadciśnienie tętnicze,
+D$*$ wykształcenie, miejsce zamieszkania, palenie tytoniu, wysoki poziom cholesterolu, podwyższony poziom glukozy we krwi, nadmierne spożycie alkoholu.
+
+.105
+Dostosowanie rytmów biologicznych człowieka do rozkładu jego czasu pracy, tak aby jak najmniej zaburzać fizjologię, to:
+A$*$ psychologia pracy,
+B$*$ chronopsychologia,
+-C$*$ chronoergonomia,
+D$*$ żadna z powyższych odpowiedzi.
+
+.106
+Zmienna, która pojawia się w przebiegu badania jako skutek oraz nie podlega manipulacji lecz obserwacji i pomiarom jest to:
+-A$*$ zmienna zależna,
+B$*$ zmienna niezależna,
+C$*$ niezmienna zależna,
+D$*$ zmienna zewnętrzna,
+
+.107
+Określenia Evidence-Based Medicine (EBM) czyli praktyka medyczna oparta o wiarygodne i aktualne dowody naukowe jako pierwszy użył:
+-A$*$ w 1991 r. Kanadyjczyk Gordon Guyatt, profesor medycyny i epidemiologii klinicznej,
+B$*$ w 1974 r. kanadyjski Minister Zdrowia i Opieki Społecznej Marc Lalonde,
+C$*$ w 1979 r. brytyjski epidemiolog Archie Cochrane,
+D$*$ w 2006 r. chińska lekarka Margaret Chan, Dyrektor Generalny Światowej Organizacji Zdrowia,
+
+.108
+Przegląd systematyczny polega n-A$*$
+-A$*$ jakościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego z użyciem odpowiednich metod zmniejszających błąd statystyczny.
+B$*$ ilościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego z użyciem odpowiednich metod zmniejszających błąd statystyczny.
+C$*$ systematycznej prenumeracie czasopism z danej dziedziny medycyny i systematycznym przeglądzie interesujących badacza artykułów
+D$*$ jakościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego bez użycia metod zmniejszających błąd statystyczny
+
+.110
+Jednym z uprawnień pacjenta jest prawo do żądania aby udzielająca mu świadczeń zdrowotnych pielegniark-A$*$
+A$*$ Bezwarunkowo zasięgnęła opinii innej pielęgniarki przed udzielaniem świadczenia 
+-B$*$ Zasięgnęła opinii innej pielęgniarki, z możliwością uznania że żądanie jest bezzasadne
+C$*$ Zasięgnęła opinii innej pielęgniarki tylko wówczas gdy brak jest możliwości uzyskania opinii lekarza
+D$*$ Zasięgnęła opinii innej pielęgniarki posiadającej specjalizację w danej dziedzinie
+
+.111
+Poprawna definicja empatii to:
+-A$*$ Umiejętność współodczuwania stanu emocjonalnego pacjenta 
+B$*$ Proces poznawczy oparty na dokładnym rozumieniu sytuacji pacjenta 
+C$*$ Proces emocjonalno-poznawczy, obejmujący rozumienie uczuć drugiego człowieka oraz zdolność do subiektywnego doświadczania stanu psychicznego
+D$*$ Postawa prospołeczna ukierunkowana na niesienie pomocy 
+
+.112
+Do narzędzi niematerialnych stosowanych w motywowaniu pracownika zalicza się m.in:
+A$*$ Wytyczenie ścieżki kariery zawodowej wyłącznie przez pracodawcę, nałożenie dodatkowych obowiązków, wizerunek organizacji
+B$*$ Umożliwienie rozwoju osobistego, zlecanie prac przekraczających kompetencje pracownika, awans
+-C$*$ Umożliwienie rozwoju osobistego pracownika, awans, dobre warunki pracy, wizerunek organizacji
+D$*$ Pokrywanie kosztów specjalistycznych szkoleń, awans zawodowy, wyeksploatowana aparatura medyczna 
+
+.113
+Druga reguła komunikacyjna Berne'a zakłada, że: 
+A$*$ Komunikacja może zachodzić bez zakłóceń, gdy transakcje są komplementarne
+B$*$ Rytuał jest ciągiem prostych transakcji komplementarnych 
+C$*$ Grę stanowi seria komplementarnych transakcji
+-D$*$ Komunikacja interpersonalna przerywa się wówczas, gdy nastąpi transakcja skrzyżowana,
+
+.114
+Zdolności, potrzeby i motywacje oraz postawy i wartości konkretnego człowieka, które wnosi ze sobą do pracy nazywane są:
+A$*$ Kompetencjami zawodowymi 
+-B$*$ Kotwicą kariery zawodowej
+C$*$ Kompasem motywacji
+D$*$ Planem rozwoju osobistego
+
+.115
+Dominujący czyli przeważający w toku porozumiewania się typ zachowań komunikowania dziecko przejmuje o-D$*$
+A$*$ Rodzica przeciwnej płci 
+-B$*$ Rodzica tej samej płci 
+C$*$ Obojga rodziców niezależnie 
+D$*$ Żadnego z rodziców, typ zachowań....
+
+.116
+Kto podejmuje decyzje w nagłej sytuacji kryzysowej:
+A$*$ Rada Ministrów
+B$*$ Minister Zdrowia,
+-C$*$ Minister Spraw Wewnętrznych,
+D$*$ Kierownik Zarządzania Kryzysowego
+
+.117
+Do obszaru osobistego praktyki opartej na dowodzie naukowym (EBP - Evidence-Based Practice) należy m.in. krytyczne myślenie (critical thinking) charakteryzujące się:
+A$*$ Praktycznym podejściem, którego celem jest przedstawienie jednego rozwiązania pacjentowi
+B$*$ Wyłącznie teoretycznym podejściem, którego celem jest wysunięcie hipotezy lub wniosków 
+-C$*$ Praktycznym podejściem, którego celem jest rozwiązanie problemu i dotarcie do prawdy 
+D$*$ Nastawieniem krytycznym do wszelkich proponowanych zmian i nowych rozwiązań 
