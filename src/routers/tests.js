@@ -9,10 +9,12 @@ router.post('/addQuestions/:name/:key', auth, async (req, res) => {
     const name = req.params.name;
     const questions = [...req.body];
     const QuestionSet = mongoose.model(name, questionSchema);
-    questions.forEach(async question => {
-      const q = new QuestionSet(question);
-      await q.save();
-    });
+    await Promise.all(
+      questions.map(async question => {
+        const q = new QuestionSet(question);
+        return await q.save();
+      })
+    );
     res.status(201).send();
   } catch (e) {
     res.status(400).send();

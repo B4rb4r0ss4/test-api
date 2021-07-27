@@ -69,7 +69,7 @@ C$*$ Biblioteka Lekarska,
 D$*$ Główna Bibliografia Lekarska,
 
 .11
-Pacjent ma 17 lat i konieczne jest uzyskanie zgody na wykonanie zabiegu. Zgodę tę wyraż-A$*$
+Pacjent ma 17 lat i konieczne jest uzyskanie zgody na wykonanie zabiegu. Zgodę tę wyraża:
 A$*$ przedstawiciel ustawowy pacjenta,
 -B$*$ przedstawiciel ustawowy pacjenta oraz sam małoletni pacjent,
 C$*$ małoletni pacjent, ponieważ ukończył 16 lat,
@@ -149,7 +149,7 @@ C$*$ analizowania wyników publikacji naukowych,
 -D$*$ samodzielnego wykonywania zleceń lekarskich.
 
 .21
-Zasady pobierania, przechowywania i przeszczepiania komórek, tkanek i narządów określa ustaw-A$*$
+Zasady pobierania, przechowywania i przeszczepiania komórek, tkanek i narządów określa ustawa:
 -A$*$ o pobieraniu, przechowywaniu i przeszczepianiu komórek, tkanek i narządów z 23 marca 2017 roku,
 B$*$ o działalności leczniczej z 15 kwietnia 2011 roku,
 C$*$ o prawach pacjenta z 19 listopada 2008 roku,
@@ -206,7 +206,7 @@ D$*$ prognozowanie, organizowanie, celowanie,
 przekształcenie, kontrolowanie.
 
 .29
-Konformizmem nazywamy podporządkowanie zachowania i sposobu myślenia jednostki spowodowane rzeczywistym lub wyobrażonym naciskiem. Na nasilenie lub osłabienie konformizmu wpływ-A$*$
+Konformizmem nazywamy podporządkowanie zachowania i sposobu myślenia jednostki spowodowane rzeczywistym lub wyobrażonym naciskiem. Na nasilenie lub osłabienie konformizmu wpływa:
 -A$*$ samoocena pielęgniarki, liczba autorytetów w grupie, podobne postawy współpracowników,
 B$*$ wykształcenie, poczucie bezpieczeństwa, rodzaj ukończonej szkoły,
 C$*$ wykształcenie, umiejętność skutecznego porozumiewania się, miejsce pracy,
@@ -339,7 +339,7 @@ C$*$ nakłaniania pracowników do podejmowania i realizacji oczekiwań podwładn
 -D$*$ efektywnego skłaniania pracowników do podejmowania i realizacji oczekiwanych celów, funkcji i zadań,  także przyjmowania preferowanych przez motywującego postaw i zachowań.
 
 .46
-,Podporządkowanie pacjenta w imię wyższej sprawy np. regulaminu oddziału charakterystyczne jest dla stylu komunikowani-A$*$
+,Podporządkowanie pacjenta w imię wyższej sprawy np. regulaminu oddziału charakterystyczne jest dla stylu komunikowania:
 -A$*$ egocentrycznego,
 B$*$ egoistycznego,
 C$*$ egalitarnego,
@@ -374,7 +374,7 @@ B$*$ zakres świadczeń, jakie pielęgniarka i położna może wykonywać samodz
 D$*$ obowiązki pielęgniarki/położnej wobec pacjenta przy uzyskiwaniu świadomej zgody na świadczenia lekarskie.
 
 .50b
-Zasady odpowiedzialności zawodowej pielęgniarek i położnych określA$*$
+Zasady odpowiedzialności zawodowej pielęgniarek i położnych określa:
 A$*$ Kodeks etyki zawodowej pielęgniarek i położnych Rzeczypospolitej Polskiej
 B$*$ Ustawa o zawodach pielęgniarek i położnych
 -C$*$ Ustawa o samorządzie pielęgniarek i położnych
@@ -451,7 +451,7 @@ C$*$ porównanie przewidywanych wielkości popytu i podaży (pracy ale i usług 
 D$*$ kontrola oraz rozmowa z kandydatami.
 
 .62
-Indeks Hirsch-A$*$
+Indeks Hirscha:
 -A$*$ jest związany z oceną autora publikacji naukowej,
 B$*$ jest związany z oceną czasopisma naukowego,
 C$*$ dotyczy sposobu indeksacji publikacji naukowych przez Ministerstwo Nauki i Szkolnictwa Wyższego,
@@ -507,7 +507,7 @@ C$*$ outsourcing usług,
 D$*$ zlecenie funkcji.
 
 .70
-Standardy etyczne prowadzenia badań naukowych w medycynie, stawiające dobro uczestnika badania na pierwszym miejscu, określ-A$*$
+Standardy etyczne prowadzenia badań naukowych w medycynie, stawiające dobro uczestnika badania na pierwszym miejscu, określa:
 A$*$ Deklaracja z Ałma-Aty,
 -B$*$ Deklaracja Helsińska,
 C$*$ Deklaracja z Dżakarty,
@@ -640,7 +640,7 @@ C$*$ anglojęzycznych czasopism z zakresu pielęgniarstwa,
 D$*$ internetowych księgarni medycznych.
 
 .89
-Skrót schematu pytania klinicznie istotnego brzmi PICO, w którym pierwsza litera P oznacz-A$*$
+Skrót schematu pytania klinicznie istotnego brzmi PICO, w którym pierwsza litera P oznacza:
 -A$*$ pacjent,
 B$*$ porównanie,
 C$*$ próba,
@@ -717,7 +717,7 @@ C$*$ wartości, sposób poruszania, wykształcenie
 D$*$ wszystkie odpowiedzi są błędne.
 
 .100
-W oficjalnych kryteriach oceny ofert dla świadczeń medycznych składanych płatnikowi (obecnie NFZ), nie znajdują się kryteri-A$*$
+W oficjalnych kryteriach oceny ofert dla świadczeń medycznych składanych płatnikowi (obecnie NFZ), nie znajdują się kryteria:
 A$*$ Negatywny wizerunek i zasoby ludzkie 
 B$*$ Szkody kliniczne i wyposażenie w aparaturę medyczną
 C$*$ Szkody kliniczne i certyfikaty jakościowe 
@@ -766,14 +766,14 @@ C$*$ w 1979 r. brytyjski epidemiolog Archie Cochrane,
 D$*$ w 2006 r. chińska lekarka Margaret Chan, Dyrektor Generalny Światowej Organizacji Zdrowia,
 
 .108
-Przegląd systematyczny polega n-A$*$
+Przegląd systematyczny polega na:
 -A$*$ jakościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego z użyciem odpowiednich metod zmniejszających błąd statystyczny.
 B$*$ ilościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego z użyciem odpowiednich metod zmniejszających błąd statystyczny.
 C$*$ systematycznej prenumeracie czasopism z danej dziedziny medycyny i systematycznym przeglądzie interesujących badacza artykułów
 D$*$ jakościowym przeglądzie wszystkich badań dotyczących tego samego pytania klinicznego bez użycia metod zmniejszających błąd statystyczny
 
 .110
-Jednym z uprawnień pacjenta jest prawo do żądania aby udzielająca mu świadczeń zdrowotnych pielegniark-A$*$
+Jednym z uprawnień pacjenta jest prawo do żądania aby udzielająca mu świadczeń zdrowotnych pielegniarka:
 A$*$ Bezwarunkowo zasięgnęła opinii innej pielęgniarki przed udzielaniem świadczenia 
 -B$*$ Zasięgnęła opinii innej pielęgniarki, z możliwością uznania że żądanie jest bezzasadne
 C$*$ Zasięgnęła opinii innej pielęgniarki tylko wówczas gdy brak jest możliwości uzyskania opinii lekarza
@@ -808,7 +808,7 @@ C$*$ Kompasem motywacji
 D$*$ Planem rozwoju osobistego
 
 .115
-Dominujący czyli przeważający w toku porozumiewania się typ zachowań komunikowania dziecko przejmuje o-D$*$
+Dominujący czyli przeważający w toku porozumiewania się typ zachowań komunikowania dziecko przejmuje od:
 A$*$ Rodzica przeciwnej płci 
 -B$*$ Rodzica tej samej płci 
 C$*$ Obojga rodziców niezależnie 
