@@ -10,44 +10,23 @@
       href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/9047a2f51e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styleIndex.css" />
+    <title>Test app</title>
   </head>
   <body>
-    <section class="section">
-      <header class="header">
-        <output>1/2</output>
-        <h2 class="title">
-          Do obszaru osobistego praktyki opartej na dowodzie naukowym (EBP -
-          Evidence-Based Practice) należy m.in. krytyczne myślenie (critical
-          thinking) charakteryzujące się:
-        </h2>
-      </header>
-      <div>
-        <span>Zaznacz odpowiedź:</span>
-        <span class="timer">02.31</span>
-      </div>
-      <ul class="questions">
-        <li class="answers" id="a">
-          Praktycznym podejściem, którego celem jest przedstawienie jednego
-          rozwiązania pacjentowi
-        </li>
-        <li class="answers" id="b">
-          Wyłącznie teoretycznym podejściem, którego celem jest wysunięcie
-          hipotezy lub wniosków
-        </li>
-        <li class="answers" id="c">
-          Praktycznym podejściem, którego celem jest rozwiązanie problemu i
-          dotarcie do prawdy
-        </li>
-        <li class="answers" id="d">
-          Nastawieniem krytycznym do wszelkich proponowanych zmian i nowych
-          rozwiązań
-        </li>
-      </ul>
-    </section>
-    <footer class="footer">
-      <h3>2021 Zrobione przez: Łukasz Stodółka</h3>
-    </footer>
+    <div class="container">
+      <h1>Aplikacja do testów</h1>
+      <h4>Zestawy Pytań:</h4>
+      <ul class="collections"></ul>
+      <button class="start">Rozpocznij test <i class="fas fa-play"></i></button>
+      <footer class="footer">
+        <h3>2021 Wykonał: Łukasz Stodółka</h3>
+      </footer>
+    </div>
   </body>
+  <script src="./index.js"></script>
 </html>

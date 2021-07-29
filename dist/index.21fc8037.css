@@ -11,12 +11,13 @@ body {
 }
 
 .header {
+  margin-top: 10px;
   background-color: #8565ff;
   color: #fffdff;
   padding: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   width: 80vw;
-  min-height: 180px;
+  min-height: 50px;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   text-align: center;
   clip-path: ellipse(101% 81% at 40% 15%);
@@ -33,7 +34,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 80vw;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -95,11 +96,6 @@ h2 {
 }
 
 span {
-  color: #ffd900;
-  font-size: 1.6rem;
-}
-
-.status {
   font-size: 1.5rem;
   text-align: left;
   margin-left: 10px;
@@ -195,8 +191,7 @@ h3 {
     font-size: 10px;
   }
   .header {
-    min-height: 150px;
-    overflow: auto;
+    height: 180px;
   }
 }
 
@@ -216,9 +211,9 @@ h3 {
   * {
     font-size: 14px;
   }
-  /* .header {
+  .header {
     margin-top: 60px;
-  } */
+  }
   .questions {
     margin-top: 20px;
   }
@@ -228,9 +223,9 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
-  /* .header {
+  .header {
     margin-top: 100px;
-  } */
+  }
   .section {
     width: 60vw;
   }
@@ -246,9 +241,9 @@ h3 {
 }
 
 @media screen and (min-width: 1300px) {
-  /* .header {
+  .header {
     margin-top: 100px;
-  } */
+  }
   .section {
     width: 40vw;
     top: 35%;
@@ -273,3 +268,5 @@ h3 {
     height: 40vw;
   }
 }
+
+/*# sourceMappingURL=index.21fc8037.css.map */

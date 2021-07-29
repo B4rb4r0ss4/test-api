@@ -50,4 +50,15 @@ router.get(
   }
 );
 
+router.get('/collections/:key', auth, async (req, res) => {
+  try {
+    mongoose.connection.db.listCollections().toArray((err, names) => {
+      const collectionsArr = names.map(name => name.name);
+      res.send({ collectionsArr });
+    });
+  } catch (e) {
+    res.status(500).send();
+  }
+});
+
 module.exports = router;

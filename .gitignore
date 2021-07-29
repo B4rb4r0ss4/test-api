@@ -3,3 +3,4 @@ config/
 questions.txt
 questions.json
 text.txt
+.parcel-cache
