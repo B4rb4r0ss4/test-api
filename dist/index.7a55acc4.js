@@ -484,7 +484,7 @@ const startApp = async () => {
 };
 startApp();
 
-},{"./js/base/base":"3rpAc","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./js/model/getCollections":"6C9vJ","./js/controlers/pureFunctions":"6ZtnW","./js/model/getQuestions":"IKIwe"}],"3rpAc":[function(require,module,exports) {
+},{"./js/base/base":"3rpAc","./js/model/getQuestions":"IKIwe","./js/controlers/pureFunctions":"6ZtnW","./js/model/getCollections":"6C9vJ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3rpAc":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 const appVariables = {
@@ -534,25 +534,25 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}],"6C9vJ":[function(require,module,exports) {
+},{}],"IKIwe":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "getCollections", function () {
-  return getCollections;
-});
 var _axios = require('axios');
 var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-const getCollections = async () => {
+const getQuestions = async (questionSet, apiKey) => {
   try {
-    const data = await _axiosDefault.default.get(`/collections/${localStorage.apiKey}`);
+    console.log(questionSet);
+    const data = await _axiosDefault.default.get(`/getSet/${questionSet}/${apiKey}`);
+    console.log(data);
     return data.data;
   } catch (e) {
     console.log(e);
     return [];
   }
 };
+exports.default = getQuestions;
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","axios":"7rA65"}],"7rA65":[function(require,module,exports) {
+},{"axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7rA65":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 },{"./lib/axios":"4qfhW"}],"4qfhW":[function(require,module,exports) {
 'use strict';
@@ -2303,23 +2303,23 @@ _parcelHelpers.defineInteropFlag(exports);
 const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
 exports.default = shuffleArray;
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"IKIwe":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6C9vJ":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "getCollections", function () {
+  return getCollections;
+});
 var _axios = require('axios');
 var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-const getQuestions = async (questionSet, apiKey) => {
+const getCollections = async () => {
   try {
-    console.log(questionSet);
-    const data = await _axiosDefault.default.get(`/getSet/${questionSet}/${apiKey}`);
-    console.log(data);
+    const data = await _axiosDefault.default.get(`/collections/${localStorage.apiKey}`);
     return data.data;
   } catch (e) {
     console.log(e);
     return [];
   }
 };
-exports.default = getQuestions;
 
 },{"axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["6bLpA","aluPG"], "aluPG", "parcelRequire9834")
 

@@ -7,8 +7,7 @@
     "start": "node src/index.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
     "changeTxtToJson": "node gettingJsonFromTxt.js",
-    "parcel": "parcel ./public/index.html",
-    "parcelQuiz": "parcel ./public/quiz.html"
+    "build": "parcel ./public/index.html ./public/quiz.html"
   },
   "author": "",
   "license": "ISC",

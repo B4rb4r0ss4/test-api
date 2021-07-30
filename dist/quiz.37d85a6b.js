@@ -504,8 +504,11 @@ _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "displayQuestion", function () {
   return displayQuestion;
 });
-_parcelHelpers.export(exports, "switchCSSClass", function () {
-  return switchCSSClass;
+_parcelHelpers.export(exports, "addCSSClass", function () {
+  return addCSSClass;
+});
+_parcelHelpers.export(exports, "removeCSSClass", function () {
+  return removeCSSClass;
 });
 var _controlersPureFunctions = require('../controlers/pureFunctions');
 var _controlersPureFunctionsDefault = _parcelHelpers.interopDefault(_controlersPureFunctions);
@@ -513,8 +516,11 @@ var _baseQuerySelectors = require('../base/querySelectors');
 var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
 var _controlersCheckIfEnd = require('../controlers/checkIfEnd');
 var _displayResults = require('./displayResults');
-const switchCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
-  el.classList.toggle(cssClass);
+const addCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
+  el.classList.add(cssClass);
+});
+const removeCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
+  el.classList.remove(cssClass);
 });
 const removeCorrectAndWrongAnswer = answers => {
   answers.forEach(el => {
@@ -542,13 +548,13 @@ const displayQuestion = async () => {
     });
     output.textContent = `${Number(questionNumber) + 1}/${numberOfAllQuestions}`;
     removeCorrectAndWrongAnswer(answers);
-    switchCSSClass(answers, 'click');
+    addCSSClass(answers, 'click');
   } else {
     _displayResults.displayResults();
   }
 };
 
-},{"../controlers/pureFunctions":"6ZtnW","../base/querySelectors":"5nebU","../controlers/checkIfEnd":"x374a","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./displayResults":"6Wybe"}],"6ZtnW":[function(require,module,exports) {
+},{"../controlers/pureFunctions":"6ZtnW","../base/querySelectors":"5nebU","../controlers/checkIfEnd":"x374a","./displayResults":"6Wybe","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6ZtnW":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
@@ -598,7 +604,7 @@ const displayResults = () => {
   });
 };
 
-},{"../base/querySelectors":"5nebU","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../controlers/timer":"3j8Th"}],"3j8Th":[function(require,module,exports) {
+},{"../base/querySelectors":"5nebU","../controlers/timer":"3j8Th","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3j8Th":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "timer", function () {
@@ -646,11 +652,13 @@ _parcelHelpers.export(exports, "addAnswersFunctions", function () {
 });
 var _modelGetAnswer = require('../model/getAnswer');
 var _viewDisplayAnswer = require('../view/displayAnswer');
+var _viewDisplayQuestion = require('../view/displayQuestion');
 const addAnswersFunctions = answers => {
   let result;
   answers.forEach(answer => {
     answer.addEventListener('click', async () => {
       if (answer.classList.contains('click')) {
+        _viewDisplayQuestion.removeCSSClass(answers, 'click');
         try {
           const points = Number(localStorage.getItem('points'));
           const {data} = await _modelGetAnswer.getAnswer(answer.id);
@@ -670,7 +678,7 @@ const addAnswersFunctions = answers => {
   return result;
 };
 
-},{"../model/getAnswer":"3a9vn","../view/displayAnswer":"Vwh4f","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3a9vn":[function(require,module,exports) {
+},{"../model/getAnswer":"3a9vn","../view/displayAnswer":"Vwh4f","../view/displayQuestion":"4tPEM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3a9vn":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "getAnswer", function () {
@@ -2437,8 +2445,8 @@ _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "displayAnswer", function () {
   return displayAnswer;
 });
-var _displayQuestion = require('./displayQuestion');
 var _modelGetCorrectAnswer = require('../model/getCorrectAnswer');
+var _displayQuestion = require('./displayQuestion');
 const displayAnswer = async (result, answer, answers) => {
   try {
     const questionSet = localStorage.getItem('collection');
@@ -2451,7 +2459,6 @@ const displayAnswer = async (result, answer, answers) => {
       const correctAnswer = await _modelGetCorrectAnswer.getCorrectAnswer(questionSet, questionId, apiKey, answer.id);
       document.getElementById(correctAnswer.answer).classList.add('correct');
     }
-    _displayQuestion.switchCSSClass(answers, 'click');
     document.querySelector('.status').innerHTML = '<button class="btn">Następne pytanie <i class="fas fa-forward"></i></button>';
     document.querySelector('.btn').addEventListener('click', _displayQuestion.displayQuestion);
   } catch (e) {
@@ -2459,7 +2466,7 @@ const displayAnswer = async (result, answer, answers) => {
   }
 };
 
-},{"./displayQuestion":"4tPEM","../model/getCorrectAnswer":"6Bzrk","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6Bzrk":[function(require,module,exports) {
+},{"../model/getCorrectAnswer":"6Bzrk","./displayQuestion":"4tPEM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6Bzrk":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "getCorrectAnswer", function () {

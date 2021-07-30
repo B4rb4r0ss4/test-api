@@ -55,4 +55,4 @@ const displayQuestion = async () => {
   }
 };
 
-export { displayQuestion, switchCSSClass, removeCSSClass };
+export { displayQuestion, addCSSClass, removeCSSClass };
