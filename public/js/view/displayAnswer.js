@@ -1,6 +1,6 @@
-import { switchCSSClass } from './questionView';
+import { switchCSSClass } from './displayQuestion';
 import { getCorrectAnswer } from '../model/getCorrectAnswer';
-import { displayQuestion } from './questionView';
+import { displayQuestion } from './displayQuestion';
 
 const displayAnswer = async (result, answer, answers) => {
   try {

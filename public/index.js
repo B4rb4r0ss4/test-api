@@ -1,5 +1,5 @@
 import appVariables from './js/base/base';
-import getQuestions from './js/model/questions';
+import getQuestions from './js/model/getQuestions';
 import shuffleArray from './js/controlers/pureFunctions';
 import { getCollections } from './js/model/getCollections';
 const collections = [];
@@ -9,7 +9,6 @@ const startApp = async () => {
     localStorage.setItem('apiKey', appVariables.apiKey);
     const collectionsArr = await getCollections();
     collections.push(...collectionsArr.collectionsArr);
-    console.log(collections);
     collections.forEach(e => {
       const li = document.createElement('li');
       const button = document.createElement('button');
@@ -23,7 +22,6 @@ const startApp = async () => {
         });
         choice = e;
         button.classList.add('choice');
-        console.log(choice);
       });
     });
     choice = collections[0];
@@ -35,13 +33,20 @@ const startApp = async () => {
           localStorage.collection,
           appVariables.apiKey
         );
-        console.log(questions);
-        shuffleArray(questions);
+        if (document.querySelector('#questionRandom').checked) {
+          shuffleArray(questions);
+        }
         localStorage.setItem('questions', JSON.stringify(questions));
         localStorage.setItem('currentQuestionNumber', 0);
         localStorage.setItem('questionsNumber', questions.length);
         localStorage.setItem('currentQuestion', JSON.stringify(questions[0]));
         localStorage.setItem('points', 0);
+        localStorage.setItem('time', 0);
+        localStorage.setItem(
+          'randomAnswers',
+          document.querySelector('#answerRandom').checked
+        );
+
         window.location.href = '/test';
       } catch (e) {
         alert(e);

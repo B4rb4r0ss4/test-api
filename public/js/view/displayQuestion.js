@@ -1,7 +1,9 @@
 import shuffleArray from '../controlers/pureFunctions';
-import base from '../base/base';
+
 import queries from '../base/querySelectors';
 import { checkIfEnd } from '../controlers/checkIfEnd';
+import { displayResults } from './displayResults';
+
 const switchCSSClass = (allSelector, cssClass) =>
   allSelector.forEach(el => {
     el.classList.toggle(cssClass);
@@ -26,8 +28,10 @@ const displayQuestion = async () => {
 
     const answersArray = [a, b, c, d];
     status.innerHTML = 'Zaznacz odpowiedź: ';
-
-    //shuffleArray(answersArray);
+    let shuffle = localStorage.getItem('randomAnswers');
+    if (shuffle == 'true') {
+      shuffleArray(answersArray);
+    }
     title.textContent = Question;
 
     answers.forEach((el, i) => {
@@ -43,14 +47,7 @@ const displayQuestion = async () => {
     removeCorrectAndWrongAnswer(answers);
     switchCSSClass(answers, 'click');
   } else {
-    const points = Number(localStorage.getItem('points'));
-    const questionsNumber = Number(localStorage.getItem('questionsNumber'));
-    const percentage = Math.round((points / questionsNumber) * 100);
-    output.textContent = `WYNIKI:`;
-    title.innerHTML = `Twoj wynik to: <span>${points} na ${questionsNumber}</span>, czyli <span>${percentage}%</span>`;
-    status.innerHTML = ``;
-    output.innerHTML = ``;
-    ul.innerHTML = ``;
+    displayResults();
   }
 };
 

@@ -1,4 +1,4 @@
-import { getAnswer } from './answer';
+import { getAnswer } from './getAnswer';
 const getCorrectAnswer = async (
   questionSet,
   questionId,

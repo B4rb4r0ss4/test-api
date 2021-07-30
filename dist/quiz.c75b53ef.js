@@ -438,15 +438,18 @@ var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 var _baseQuerySelectors = require('./base/querySelectors');
 var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
-var _viewQuestionView = require('./view/questionView');
-var _controlersAnswers = require('./controlers/answers');
+var _viewDisplayQuestion = require('./view/displayQuestion');
+var _controlersAddAnswersFunctions = require('./controlers/addAnswersFunctions');
+var _controlersTimer = require('./controlers/timer');
 const play = async () => {
-  _viewQuestionView.displayQuestion();
-  _controlersAnswers.addAnswersFunctions(_baseQuerySelectorsDefault.default.answers);
+  _viewDisplayQuestion.displayQuestion();
+  _controlersAddAnswersFunctions.addAnswersFunctions(_baseQuerySelectorsDefault.default.answers);
+  _controlersTimer.displayTime(Number(localStorage.getItem('time')));
+  _controlersTimer.timer;
 };
 exports.default = play;
 
-},{"./base/querySelectors":"5nebU","./view/questionView":"cvJSW","./controlers/answers":"5tWxC","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5nebU":[function(require,module,exports) {
+},{"./base/querySelectors":"5nebU","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./controlers/timer":"3j8Th","./controlers/addAnswersFunctions":"1KIYn","./view/displayQuestion":"4tPEM"}],"5nebU":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 const querySelectors = {
@@ -454,7 +457,8 @@ const querySelectors = {
   ul: document.querySelector('.questions'),
   status: document.querySelector('.status'),
   title: document.querySelector('.title'),
-  output: document.querySelector('output')
+  output: document.querySelector('output'),
+  timer: document.querySelector('.timer')
 };
 exports.default = querySelectors;
 
@@ -500,79 +504,39 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}],"cvJSW":[function(require,module,exports) {
+},{}],"3j8Th":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "displayQuestion", function () {
-  return displayQuestion;
+_parcelHelpers.export(exports, "timer", function () {
+  return timer;
 });
-_parcelHelpers.export(exports, "switchCSSClass", function () {
-  return switchCSSClass;
+_parcelHelpers.export(exports, "displayTime", function () {
+  return displayTime;
 });
-require('../controlers/pureFunctions');
-require('../base/base');
+var _checkIfEnd = require('./checkIfEnd');
 var _baseQuerySelectors = require('../base/querySelectors');
 var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
-var _controlersCheckIfEnd = require('../controlers/checkIfEnd');
-const switchCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
-  el.classList.toggle(cssClass);
-});
-const removeCorrectAndWrongAnswer = answers => {
-  answers.forEach(el => {
-    el.classList.remove('correct');
-    el.classList.remove('wrong');
-  });
+const timeFormater = time => {
+  const seconds = ('0' + time % 60).slice(-2);
+  const minutes = ('0' + Math.floor(time / 60)).slice(-2);
+  return `${minutes}.${seconds}`;
 };
-const displayQuestion = async () => {
-  const {status, title, output, answers, ul} = _baseQuerySelectorsDefault.default;
-  if (!_controlersCheckIfEnd.checkIfEnd()) {
-    const question = JSON.parse(localStorage.getItem('currentQuestion'));
-    const questionNumber = localStorage.getItem('currentQuestionNumber');
-    const numberOfAllQuestions = localStorage.getItem('questionsNumber');
-    const {a, b, c, d, Question} = JSON.parse(localStorage.getItem('currentQuestion'));
-    const answersArray = [a, b, c, d];
-    status.innerHTML = 'Zaznacz odpowiedź: ';
-    // shuffleArray(answersArray);
-    title.textContent = Question;
-    answers.forEach((el, i) => {
-      el.textContent = answersArray[i];
-      el.id = Object.keys(question).find(key => question[key] === answersArray[i]);
-    });
-    output.textContent = `${Number(questionNumber) + 1}/${numberOfAllQuestions}`;
-    removeCorrectAndWrongAnswer(answers);
-    switchCSSClass(answers, 'click');
+const displayTime = time => {
+  const formatedTime = timeFormater(time);
+  _baseQuerySelectorsDefault.default.timer.textContent = formatedTime;
+};
+const timer = setInterval(() => {
+  let time = Number(localStorage.getItem('time'));
+  displayTime(time);
+  if (_checkIfEnd.checkIfEnd()) {
+    clearInterval(timer);
   } else {
-    const points = Number(localStorage.getItem('points'));
-    const questionsNumber = Number(localStorage.getItem('questionsNumber'));
-    const percentage = Math.round(points / questionsNumber * 100);
-    output.textContent = `WYNIKI:`;
-    title.innerHTML = `Twoj wynik to: <span>${points} na ${questionsNumber}</span>, czyli <span>${percentage}%</span>`;
-    status.innerHTML = ``;
-    output.innerHTML = ``;
-    ul.innerHTML = ``;
+    time++;
+    localStorage.setItem('time', time);
   }
-};
+}, 1000);
 
-},{"../controlers/pureFunctions":"6ZtnW","../base/base":"3rpAc","../base/querySelectors":"5nebU","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../controlers/checkIfEnd":"x374a"}],"6ZtnW":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-exports.default = shuffleArray;
-
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3rpAc":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-const appVariables = {
-  currentQuestion: 0,
-  points: 0,
-  questionSet: 'pytania2021',
-  apiKey: 'h0hB6CyIGzbAuPND',
-  questions: [],
-  question: ''
-};
-exports.default = appVariables;
-
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"x374a":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./checkIfEnd":"x374a","../base/querySelectors":"5nebU"}],"x374a":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "checkIfEnd", function () {
@@ -584,16 +548,14 @@ const checkIfEnd = () => {
   } else return false;
 };
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5tWxC":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1KIYn":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "addAnswersFunctions", function () {
   return addAnswersFunctions;
 });
-var _modelAnswer = require('../model/answer');
-var _viewAnswersView = require('../view/answersView');
-require('../view/questionView');
-require('../base/base');
+var _modelGetAnswer = require('../model/getAnswer');
+var _viewDisplayAnswer = require('../view/displayAnswer');
 const addAnswersFunctions = answers => {
   let result;
   answers.forEach(answer => {
@@ -601,11 +563,9 @@ const addAnswersFunctions = answers => {
       if (answer.classList.contains('click')) {
         try {
           const points = Number(localStorage.getItem('points'));
-          const {data} = await _modelAnswer.getAnswer(answer.id);
-          if (data.result) {
-            localStorage.setItem('points', points + 1);
-          }
-          _viewAnswersView.displayAnswer(data.result, answer, answers);
+          const {data} = await _modelGetAnswer.getAnswer(answer.id);
+          data.result && localStorage.setItem('points', points + 1);
+          _viewDisplayAnswer.displayAnswer(data.result, answer, answers);
           const current = localStorage.getItem('currentQuestionNumber');
           let number = Number(current);
           number++;
@@ -620,7 +580,54 @@ const addAnswersFunctions = answers => {
   return result;
 };
 
-},{"../model/answer":"5N28H","../view/answersView":"4gXWL","../view/questionView":"cvJSW","../base/base":"3rpAc","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5N28H":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../view/displayAnswer":"Vwh4f","../model/getAnswer":"3a9vn"}],"Vwh4f":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "displayAnswer", function () {
+  return displayAnswer;
+});
+var _displayQuestion = require('./displayQuestion');
+var _modelGetCorrectAnswer = require('../model/getCorrectAnswer');
+const displayAnswer = async (result, answer, answers) => {
+  try {
+    const questionSet = localStorage.getItem('collection');
+    const questionId = JSON.parse(localStorage.getItem('currentQuestion'))._id;
+    const apiKey = localStorage.getItem('apiKey');
+    if (result) {
+      document.getElementById(answer.id).classList.add('correct');
+    } else if (!result) {
+      document.getElementById(answer.id).classList.add('wrong');
+      const correctAnswer = await _modelGetCorrectAnswer.getCorrectAnswer(questionSet, questionId, apiKey, answer.id);
+      document.getElementById(correctAnswer.answer).classList.add('correct');
+    }
+    _displayQuestion.switchCSSClass(answers, 'click');
+    document.querySelector('.status').innerHTML = '<button class="btn">Następne pytanie <i class="fas fa-forward"></i></button>';
+    document.querySelector('.btn').addEventListener('click', _displayQuestion.displayQuestion);
+  } catch (e) {
+    alert(e);
+  }
+};
+
+},{"../model/getCorrectAnswer":"6Bzrk","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./displayQuestion":"4tPEM"}],"6Bzrk":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "getCorrectAnswer", function () {
+  return getCorrectAnswer;
+});
+var _getAnswer = require('./getAnswer');
+const getCorrectAnswer = async (questionSet, questionId, apiKey, userAnswer) => {
+  const requests = ['a', 'b', 'c', 'd'].filter(req => req !== userAnswer.id);
+  const results = await Promise.all(requests.map(async req => {
+    const {data} = await _getAnswer.getAnswer(req, questionSet, questionId, apiKey);
+    return {
+      answer: req,
+      result: data.result
+    };
+  }));
+  return correctAnswer = results.find(el => el.result === true);
+};
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./getAnswer":"3a9vn"}],"3a9vn":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "getAnswer", function () {
@@ -2381,53 +2388,64 @@ module.exports = function isAxiosError(payload) {
   return (typeof payload === 'object') && (payload.isAxiosError === true);
 };
 
-},{}],"4gXWL":[function(require,module,exports) {
+},{}],"4tPEM":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "displayAnswer", function () {
-  return displayAnswer;
+_parcelHelpers.export(exports, "displayQuestion", function () {
+  return displayQuestion;
 });
-var _questionView = require('./questionView');
-var _modelGetCorrectAnswer = require('../model/getCorrectAnswer');
-const displayAnswer = async (result, answer, answers) => {
-  try {
-    const questionSet = localStorage.getItem('collection');
-    const questionId = JSON.parse(localStorage.getItem('currentQuestion'))._id;
-    const apiKey = localStorage.getItem('apiKey');
-    if (result) {
-      document.getElementById(answer.id).classList.add('correct');
-    } else if (!result) {
-      document.getElementById(answer.id).classList.add('wrong');
-      const correctAnswer = await _modelGetCorrectAnswer.getCorrectAnswer(questionSet, questionId, apiKey, answer.id);
-      document.getElementById(correctAnswer.answer).classList.add('correct');
-    }
-    _questionView.switchCSSClass(answers, 'click');
-    document.querySelector('.status').innerHTML = '<button class="btn">Następne pytanie <i class="fas fa-forward"></i></button>';
-    document.querySelector('.btn').addEventListener('click', _questionView.displayQuestion);
-  } catch (e) {
-    alert(e);
+_parcelHelpers.export(exports, "switchCSSClass", function () {
+  return switchCSSClass;
+});
+require('../controlers/pureFunctions');
+var _baseQuerySelectors = require('../base/querySelectors');
+var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
+var _controlersCheckIfEnd = require('../controlers/checkIfEnd');
+const switchCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
+  el.classList.toggle(cssClass);
+});
+const removeCorrectAndWrongAnswer = answers => {
+  answers.forEach(el => {
+    el.classList.remove('correct');
+    el.classList.remove('wrong');
+  });
+};
+const displayQuestion = async () => {
+  const {status, title, output, answers, ul} = _baseQuerySelectorsDefault.default;
+  if (!_controlersCheckIfEnd.checkIfEnd()) {
+    const question = JSON.parse(localStorage.getItem('currentQuestion'));
+    const questionNumber = localStorage.getItem('currentQuestionNumber');
+    const numberOfAllQuestions = localStorage.getItem('questionsNumber');
+    const {a, b, c, d, Question} = JSON.parse(localStorage.getItem('currentQuestion'));
+    const answersArray = [a, b, c, d];
+    status.innerHTML = 'Zaznacz odpowiedź: ';
+    // shuffleArray(answersArray);
+    title.textContent = Question;
+    answers.forEach((el, i) => {
+      el.textContent = answersArray[i];
+      el.id = Object.keys(question).find(key => question[key] === answersArray[i]);
+    });
+    output.textContent = `${Number(questionNumber) + 1}/${numberOfAllQuestions}`;
+    removeCorrectAndWrongAnswer(answers);
+    switchCSSClass(answers, 'click');
+  } else {
+    const points = Number(localStorage.getItem('points'));
+    const questionsNumber = Number(localStorage.getItem('questionsNumber'));
+    const percentage = Math.round(points / questionsNumber * 100);
+    output.textContent = `WYNIKI:`;
+    title.innerHTML = `Twoj wynik to: <span>${points} na ${questionsNumber}</span>, czyli <span>${percentage}%</span>`;
+    status.innerHTML = ``;
+    output.innerHTML = ``;
+    ul.innerHTML = ``;
   }
 };
 
-},{"./questionView":"cvJSW","../model/getCorrectAnswer":"6Bzrk","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6Bzrk":[function(require,module,exports) {
+},{"../controlers/pureFunctions":"6ZtnW","../base/querySelectors":"5nebU","../controlers/checkIfEnd":"x374a","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6ZtnW":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "getCorrectAnswer", function () {
-  return getCorrectAnswer;
-});
-var _answer = require('./answer');
-const getCorrectAnswer = async (questionSet, questionId, apiKey, userAnswer) => {
-  const requests = ['a', 'b', 'c', 'd'].filter(req => req !== userAnswer.id);
-  const results = await Promise.all(requests.map(async req => {
-    const {data} = await _answer.getAnswer(req, questionSet, questionId, apiKey);
-    return {
-      answer: req,
-      result: data.result
-    };
-  }));
-  return correctAnswer = results.find(el => el.result === true);
-};
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+exports.default = shuffleArray;
 
-},{"./answer":"5N28H","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["5LrAc","7tkT4"], "7tkT4", "parcelRequire9834")
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["5LrAc","7tkT4"], "7tkT4", "parcelRequire9834")
 
 //# sourceMappingURL=quiz.c75b53ef.js.map

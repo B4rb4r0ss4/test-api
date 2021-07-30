@@ -1,7 +1,6 @@
-import { getAnswer } from '../model/answer';
-import { displayAnswer } from '../view/answersView';
-import { displayQuestion } from '../view/questionView';
-import base from '../base/base';
+import { getAnswer } from '../model/getAnswer';
+import { displayAnswer } from '../view/displayAnswer';
+
 const addAnswersFunctions = answers => {
   let result;
   answers.forEach(answer => {
@@ -10,9 +9,8 @@ const addAnswersFunctions = answers => {
         try {
           const points = Number(localStorage.getItem('points'));
           const { data } = await getAnswer(answer.id);
-          if (data.result) {
-            localStorage.setItem('points', points + 1);
-          }
+          data.result && localStorage.setItem('points', points + 1);
+
           displayAnswer(data.result, answer, answers);
           const current = localStorage.getItem('currentQuestionNumber');
           let number = Number(current);
