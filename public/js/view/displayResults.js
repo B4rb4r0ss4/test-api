@@ -12,16 +12,24 @@ const displayResults = () => {
   else if (percentage >= 40) percentageColor = '#fa6500';
   else if (percentage >= 0) percentageColor = '#e91100';
 
+  let question = 'pytań';
+  if (points === 1) question = 'pytanie';
+  else if (points <= 4) question = 'pytania';
+
+  let question2 = 'pytań';
+  if (questionsNumber - points === 1) question2 = 'pytanie';
+  else if (questionsNumber - points <= 4) question2 = 'pytania';
+
   const [min, seconds] = time.split('.');
   queries.container.classList.remove('quiz');
   queries.container.classList.add('container');
   queries.container.innerHTML = `
     <h2 class="results">Wyniki:</h2>
     <p><span class="result-text">Test wykonano w ciągu:</span> <span class="time-result resultOut">${min} min. i ${seconds} s. </span></p>
-    <p><span class="result-text">Poprawnie odpowiedzieno na:</span> <span class="correct-result resultOut">${points} pytań</span></p>
+    <p><span class="result-text">Poprawnie odpowiedzieno na:</span> <span class="correct-result resultOut">${points} ${question}</span></p>
     <p><span class="result-text">Niepoprawnie odpowiedzieno na:</span> <span class="wrong-result resultOut">${
       questionsNumber - points
-    } pytań</span></p>
+    } ${question2}</span></p>
     <p><span class="result-text">Czyli:</span> <span class="percentage resultOut" style="color: ${percentageColor}">${percentage}%</span>  </p>
     <button class="return">Powrót do Menu: <i class="fas fa-undo"></button></i>
   `;
