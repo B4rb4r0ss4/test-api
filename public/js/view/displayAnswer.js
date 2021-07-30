@@ -8,6 +8,7 @@ const displayAnswer = async (result, answer, answers) => {
     const questionId = JSON.parse(localStorage.getItem('currentQuestion'))._id;
     const apiKey = localStorage.getItem('apiKey');
 
+    switchCSSClass(answers, 'click');
     if (result) {
       document.getElementById(answer.id).classList.add('correct');
     } else if (!result) {
@@ -20,7 +21,6 @@ const displayAnswer = async (result, answer, answers) => {
       );
       document.getElementById(correctAnswer.answer).classList.add('correct');
     }
-    switchCSSClass(answers, 'click');
     document.querySelector('.status').innerHTML =
       '<button class="btn">Następne pytanie <i class="fas fa-forward"></i></button>';
     document.querySelector('.btn').addEventListener('click', displayQuestion);
