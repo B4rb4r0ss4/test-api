@@ -45,7 +45,7 @@ ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
   /* width: inherit; */
   /* flex-direction: column; */
   align-items: center;
@@ -180,8 +180,10 @@ input[type='checkbox']:checked + label .indicator::after {
 
 @media screen and (max-width: 940px) {
   ul {
+    flex-wrap: nowrap;
     flex-direction: column;
-    overflow: auto;
+    overflow-y: auto;
+    max-height: 250px;
   }
 }
 
