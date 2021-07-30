@@ -1,4 +1,3 @@
-import { switchCSSClass } from './displayQuestion';
 import { getCorrectAnswer } from '../model/getCorrectAnswer';
 import { displayQuestion } from './displayQuestion';
 

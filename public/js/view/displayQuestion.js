@@ -4,9 +4,13 @@ import queries from '../base/querySelectors';
 import { checkIfEnd } from '../controlers/checkIfEnd';
 import { displayResults } from './displayResults';
 
-const switchCSSClass = (allSelector, cssClass) =>
+const addCSSClass = (allSelector, cssClass) =>
   allSelector.forEach(el => {
-    el.classList.toggle(cssClass);
+    el.classList.add(cssClass);
+  });
+const removeCSSClass = (allSelector, cssClass) =>
+  allSelector.forEach(el => {
+    el.classList.remove(cssClass);
   });
 
 const removeCorrectAndWrongAnswer = answers => {
@@ -45,10 +49,10 @@ const displayQuestion = async () => {
       Number(questionNumber) + 1
     }/${numberOfAllQuestions}`;
     removeCorrectAndWrongAnswer(answers);
-    switchCSSClass(answers, 'click');
+    addCSSClass(answers, 'click');
   } else {
     displayResults();
   }
 };
 
-export { displayQuestion, switchCSSClass };
+export { displayQuestion, switchCSSClass, removeCSSClass };
