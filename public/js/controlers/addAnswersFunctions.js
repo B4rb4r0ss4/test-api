@@ -1,11 +1,12 @@
 import { getAnswer } from '../model/getAnswer';
 import { displayAnswer } from '../view/displayAnswer';
-
+import { switchCSSClass } from '../view/displayQuestion';
 const addAnswersFunctions = answers => {
   let result;
   answers.forEach(answer => {
     answer.addEventListener('click', async () => {
       if (answer.classList.contains('click')) {
+        switchCSSClass(answers, 'click');
         try {
           const points = Number(localStorage.getItem('points'));
           const { data } = await getAnswer(answer.id);

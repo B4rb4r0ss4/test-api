@@ -8,7 +8,6 @@ const displayAnswer = async (result, answer, answers) => {
     const questionId = JSON.parse(localStorage.getItem('currentQuestion'))._id;
     const apiKey = localStorage.getItem('apiKey');
 
-    switchCSSClass(answers, 'click');
     if (result) {
       document.getElementById(answer.id).classList.add('correct');
     } else if (!result) {
