@@ -140,12 +140,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"7LgeZ":[function(require,module,exports) {
+})({"1kB7l":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = 45141;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
-module.bundle.HMR_BUNDLE_ID = "571ef5184cb4ed8e992b6cd937d85a6b";
+module.bundle.HMR_BUNDLE_ID = "866619b133f9554ffc8d12de6c933e8d";
 // @flow
 /*global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE*/
 /*::
@@ -427,38 +427,58 @@ function hmrAcceptRun(bundle, id) {
   acceptedAssets[id] = true;
 }
 
-},{}],"7E5dJ":[function(require,module,exports) {
-var _baseQuerySelectors = require('./base/querySelectors');
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
-var _viewDisplayQuestion = require('./view/displayQuestion');
-var _controlersAddAnswersFunctions = require('./controlers/addAnswersFunctions');
-var _controlersTimer = require('./controlers/timer');
-const play = async () => {
-  if (localStorage.getItem('exam') === 'false') {
-    _viewDisplayQuestion.displayQuestion();
-    _controlersAddAnswersFunctions.addAnswersFunctions(_baseQuerySelectorsDefault.default.answers);
-    _controlersTimer.displayTime(Number(localStorage.getItem('time')));
-    _controlersTimer.timer;
-  } else if (localStorage.getItem('exam') === 'true') {
-    window.location.href = '/egzamin';
-  }
-};
-play();
+},{}],"4VgBR":[function(require,module,exports) {
+var _jsControlersGenerateExam = require('./js/controlers/generateExam');
+var _jsControlersTimer = require('./js/controlers/timer');
+var _jsControlersAddExamAnswersFunction = require('./js/controlers/addExamAnswersFunction');
+var _jsControlersAddEndExamFunction = require('./js/controlers/addEndExamFunction');
+_jsControlersGenerateExam.generateQuestions();
+_jsControlersTimer.displayTime(Number(localStorage.getItem('time')));
+_jsControlersTimer.timer;
+_jsControlersAddExamAnswersFunction.addAnswersFunction();
+_jsControlersAddEndExamFunction.examEnd();
 
-},{"./base/querySelectors":"5nebU","./view/displayQuestion":"4tPEM","./controlers/addAnswersFunctions":"1KIYn","./controlers/timer":"3j8Th","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5nebU":[function(require,module,exports) {
+},{"./js/controlers/generateExam":"6yf9W","./js/controlers/timer":"3j8Th","./js/controlers/addExamAnswersFunction":"16UK8","./js/controlers/addEndExamFunction":"1PCde"}],"6yf9W":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-const querySelectors = {
-  answers: document.querySelectorAll('.answers'),
-  ul: document.querySelector('.questions'),
-  status: document.querySelector('.status'),
-  title: document.querySelector('.title'),
-  output: document.querySelector('output'),
-  timer: document.querySelector('.timer'),
-  container: document.querySelector('.section')
+_parcelHelpers.export(exports, "generateQuestions", function () {
+  return generateQuestions;
+});
+const generateQuestions = () => {
+  const questions = JSON.parse(localStorage.getItem('questions'));
+  document.querySelector('output').textContent = `${localStorage.getItem('questionsNumber')} pytań`;
+  const userAnswers = JSON.parse(localStorage.getItem('userAnswers'));
+  questions.forEach((question, i) => {
+    const html = `
+      <li>
+        <header class="question-title">${i + 1}. ${question.Question}</header>
+        <ul class="answersUl" id="${question._id}">
+          <button class="answersBtn i${i} button" id="a">
+            <li class="answers">
+                ${question.a}
+            </li>
+          </button>
+          <button class="answersBtn i${i} button" id="b">
+            <li class="answers">
+                ${question.b}
+            </li>
+          </button>
+          <button class="answersBtn i${i} button" id="c">
+            <li class="answers">
+                ${question.c}
+            </li>
+          </button>
+          <button class="answersBtn i${i} button" id="d"'>
+            <li class="answers">
+                ${question.d}
+            </li>
+          </button>
+        </ul>
+      </li>
+`;
+    document.querySelector('.questions').insertAdjacentHTML('beforeend', html);
+  });
 };
-exports.default = querySelectors;
 
 },{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5gA8y":[function(require,module,exports) {
 "use strict";
@@ -502,117 +522,7 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}],"4tPEM":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "displayQuestion", function () {
-  return displayQuestion;
-});
-_parcelHelpers.export(exports, "addCSSClass", function () {
-  return addCSSClass;
-});
-_parcelHelpers.export(exports, "removeCSSClass", function () {
-  return removeCSSClass;
-});
-var _controlersPureFunctions = require('../controlers/pureFunctions');
-var _controlersPureFunctionsDefault = _parcelHelpers.interopDefault(_controlersPureFunctions);
-var _baseQuerySelectors = require('../base/querySelectors');
-var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
-var _controlersCheckIfEnd = require('../controlers/checkIfEnd');
-var _displayResults = require('./displayResults');
-const addCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
-  el.classList.add(cssClass);
-});
-const removeCSSClass = (allSelector, cssClass) => allSelector.forEach(el => {
-  el.classList.remove(cssClass);
-});
-const removeCorrectAndWrongAnswer = answers => {
-  answers.forEach(el => {
-    el.classList.remove('correct');
-    el.classList.remove('wrong');
-  });
-};
-const displayQuestion = async () => {
-  const {status, title, output, answers, ul} = _baseQuerySelectorsDefault.default;
-  if (!_controlersCheckIfEnd.checkIfEnd()) {
-    const question = JSON.parse(localStorage.getItem('currentQuestion'));
-    const questionNumber = localStorage.getItem('currentQuestionNumber');
-    const numberOfAllQuestions = localStorage.getItem('questionsNumber');
-    const {a, b, c, d, Question} = JSON.parse(localStorage.getItem('currentQuestion'));
-    const answersArray = [a, b, c, d];
-    status.innerHTML = 'Zaznacz odpowiedź: ';
-    let shuffle = localStorage.getItem('randomAnswers');
-    if (shuffle == 'true') {
-      _controlersPureFunctionsDefault.default(answersArray);
-    }
-    title.textContent = Question;
-    answers.forEach((el, i) => {
-      el.textContent = answersArray[i];
-      el.id = Object.keys(question).find(key => question[key] === answersArray[i]);
-    });
-    output.textContent = `${Number(questionNumber) + 1}/${numberOfAllQuestions}`;
-    removeCorrectAndWrongAnswer(answers);
-    addCSSClass(answers, 'click');
-  } else {
-    _displayResults.displayResults();
-  }
-};
-
-},{"../controlers/pureFunctions":"6ZtnW","../base/querySelectors":"5nebU","../controlers/checkIfEnd":"x374a","./displayResults":"6Wybe","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6ZtnW":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-exports.default = shuffleArray;
-
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"x374a":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "checkIfEnd", function () {
-  return checkIfEnd;
-});
-const checkIfEnd = () => {
-  if (Number(localStorage.getItem('currentQuestionNumber')) === Number(localStorage.getItem('questionsNumber')) || localStorage.getItem('play') === 'false') {
-    return true;
-  } else return false;
-};
-
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6Wybe":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "displayResults", function () {
-  return displayResults;
-});
-var _baseQuerySelectors = require('../base/querySelectors');
-var _baseQuerySelectorsDefault = _parcelHelpers.interopDefault(_baseQuerySelectors);
-var _controlersTimer = require('../controlers/timer');
-const displayResults = () => {
-  const points = Number(localStorage.getItem('points'));
-  const questionsNumber = Number(localStorage.getItem('questionsNumber'));
-  const time = _controlersTimer.timeFormater(Number(localStorage.getItem('time')), false);
-  const percentage = Math.round(points / questionsNumber * 100);
-  let percentageColor;
-  if (percentage >= 90) percentageColor = '#49D615'; else if (percentage >= 80) percentageColor = '#a3ba0b'; else if (percentage >= 60) percentageColor = '#f1ff76'; else if (percentage >= 40) percentageColor = '#fa6500'; else if (percentage >= 0) percentageColor = '#e91100';
-  let question = 'pytań';
-  if (points === 1) question = 'pytanie'; else if (points <= 4) question = 'pytania';
-  let question2 = 'pytań';
-  if (questionsNumber - points === 1) question2 = 'pytanie'; else if (questionsNumber - points <= 4) question2 = 'pytania';
-  const [min, seconds] = time.split('.');
-  _baseQuerySelectorsDefault.default.container.classList.remove('quiz');
-  _baseQuerySelectorsDefault.default.container.classList.add('container');
-  _baseQuerySelectorsDefault.default.container.innerHTML = `
-    <h2 class="results">Wyniki:</h2>
-    <p><span class="result-text">Test wykonano w ciągu:</span> <span class="time-result resultOut">${min} min. i ${seconds} s. </span></p>
-    <p><span class="result-text">Poprawnie odpowiedzieno na:</span> <span class="correct-result resultOut">${points} ${question}</span></p>
-    <p><span class="result-text">Niepoprawnie odpowiedzieno na:</span> <span class="wrong-result resultOut">${questionsNumber - points} ${question2}</span></p>
-    <p><span class="result-text">Czyli:</span> <span class="percentage resultOut" style="color: ${percentageColor}">${percentage}%</span>  </p>
-    <button class="return">Powrót do Menu: <i class="fas fa-undo"></button></i>
-  `;
-  document.querySelector('.return').addEventListener('click', () => {
-    window.location.href = '/';
-  });
-};
-
-},{"../base/querySelectors":"5nebU","../controlers/timer":"3j8Th","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3j8Th":[function(require,module,exports) {
+},{}],"3j8Th":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "timer", function () {
@@ -652,54 +562,130 @@ const timer = setInterval(() => {
   }
 }, 1000);
 
-},{"./checkIfEnd":"x374a","../base/querySelectors":"5nebU","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1KIYn":[function(require,module,exports) {
+},{"./checkIfEnd":"x374a","../base/querySelectors":"5nebU","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"x374a":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "addAnswersFunctions", function () {
-  return addAnswersFunctions;
+_parcelHelpers.export(exports, "checkIfEnd", function () {
+  return checkIfEnd;
 });
-var _modelGetAnswer = require('../model/getAnswer');
-var _viewDisplayAnswer = require('../view/displayAnswer');
-var _viewDisplayQuestion = require('../view/displayQuestion');
-const addAnswersFunctions = answers => {
-  let result;
-  answers.forEach(answer => {
-    answer.addEventListener('click', async () => {
-      if (answer.classList.contains('click')) {
-        _viewDisplayQuestion.removeCSSClass(answers, 'click');
-        try {
-          const points = Number(localStorage.getItem('points'));
-          const {data} = await _modelGetAnswer.getAnswer(answer.id);
-          data.result && localStorage.setItem('points', points + 1);
-          _viewDisplayAnswer.displayAnswer(data.result, answer, answers);
-          const current = localStorage.getItem('currentQuestionNumber');
-          let number = Number(current);
-          number++;
-          localStorage.setItem('currentQuestionNumber', number);
-          localStorage.setItem('currentQuestion', JSON.stringify(JSON.parse(localStorage.getItem('questions'))[number]));
-        } catch (e) {
-          alert(e);
-        }
-      }
-    });
-  });
-  return result;
+const checkIfEnd = () => {
+  if (Number(localStorage.getItem('currentQuestionNumber')) === Number(localStorage.getItem('questionsNumber')) || localStorage.getItem('play') === 'false') {
+    return true;
+  } else return false;
 };
 
-},{"../model/getAnswer":"3a9vn","../view/displayAnswer":"Vwh4f","../view/displayQuestion":"4tPEM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3a9vn":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5nebU":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "getAnswer", function () {
-  return getAnswer;
+const querySelectors = {
+  answers: document.querySelectorAll('.answers'),
+  ul: document.querySelector('.questions'),
+  status: document.querySelector('.status'),
+  title: document.querySelector('.title'),
+  output: document.querySelector('output'),
+  timer: document.querySelector('.timer'),
+  container: document.querySelector('.section')
+};
+exports.default = querySelectors;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"16UK8":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "addAnswersFunction", function () {
+  return addAnswersFunction;
+});
+const addAnswersFunction = () => {
+  const userAnswers = JSON.parse(localStorage.getItem('userAnswers'));
+  document.querySelectorAll('.answersBtn').forEach(el => {
+    // console.log(userAnswers);
+    const currentQuestion = userAnswers.find(ele => ele.id === el.parentNode.id);
+    const answers = document.getElementById(el.id).childNodes;
+    userAnswers.forEach((e, i) => {
+      // console.log(e);
+      if (e.userAnswer != 0 && e.id === currentQuestion.id) {
+        document.querySelectorAll(`.i${i}`).forEach(ele => {
+          ele.id === currentQuestion.userAnswer && ele.classList.add('clicked');
+        });
+      }
+    });
+    el.addEventListener('click', () => {
+      currentQuestion.userAnswer = el.id;
+      const currentClass = '.' + currentQuestion.i;
+      const answersBtn = document.querySelectorAll(currentClass);
+      answersBtn.forEach(e => e.classList.remove('clicked'));
+      localStorage.setItem('userAnswers', JSON.stringify(userAnswers));
+      el.classList.add('clicked');
+      console.log('clicked');
+    });
+  });
+};
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"1PCde":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "examEnd", function () {
+  return examEnd;
+});
+var _modelGetExamAnswers = require('../model/getExamAnswers');
+const generateBtn = () => {
+  const end = document.querySelector('.end');
+  end.textContent = 'Powrót';
+  end.addEventListener('click', () => {
+    window.location.href = '/';
+  });
+};
+const finishExam = async () => {
+  localStorage.setItem('play', false);
+  generateBtn();
+  document.querySelectorAll('.answersBtn').forEach(btn => {
+    btn.classList.remove('button');
+    const elClone = btn.cloneNode(true);
+    btn.parentNode.replaceChild(elClone, btn);
+  });
+  const {examResults, points} = await _modelGetExamAnswers.results(JSON.parse(localStorage.getItem('userAnswers')));
+  const answersBtn = document.querySelectorAll('.answersBtn');
+  examResults.forEach(result => {
+    const answersUl = document.querySelectorAll('.answersUl');
+    const answers = [...document.getElementById(result.id).childNodes];
+    const userAnswers = JSON.parse(localStorage.getItem('userAnswers'));
+    const btns = answers.filter(el => {
+      if (el.id) return el;
+    });
+    btns.forEach(btn => {
+      btn.classList.add('ends');
+      if (btn.id === result.answer) {
+        btn.classList.add('correct');
+      } else if (btn.classList.contains('clicked')) {
+        btn.classList.add('wrong');
+      }
+      btn.classList.remove('clicked');
+    });
+  });
+  document.querySelector('.sub').textContent = 'Wyniki:';
+  document.querySelector('output').textContent = `${points} / ${examResults.length},  czyli ${Math.round(points / examResults.length * 100)}%`;
+};
+const examEnd = () => {
+  if (localStorage.getItem('play') === 'false') {
+    finishExam();
+  } else {
+    document.querySelector('.end').addEventListener('click', finishExam);
+  }
+};
+
+},{"../model/getExamAnswers":"6cCLu","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6cCLu":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "results", function () {
+  return results;
 });
 var _axios = require('axios');
 var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-const getAnswer = async answer => {
-  const questionSet = localStorage.getItem('collection');
-  const questionID = JSON.parse(localStorage.getItem('currentQuestion'))._id;
-  const apiKey = localStorage.getItem('apiKey');
-  const data = await _axiosDefault.default.get(`/checkAnswer/${questionSet}/${questionID}/${answer}/${apiKey}`);
-  return data;
+const results = async userAnswers => {
+  const result = await _axiosDefault.default.post(`/checkExam/${localStorage.getItem('apiKey')}`, {
+    setName: localStorage.getItem('collection'),
+    userAnswers
+  });
+  return result.data;
 };
 
 },{"axios":"7rA65","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"7rA65":[function(require,module,exports) {
@@ -2447,52 +2433,6 @@ module.exports = function isAxiosError(payload) {
   return (typeof payload === 'object') && (payload.isAxiosError === true);
 };
 
-},{}],"Vwh4f":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "displayAnswer", function () {
-  return displayAnswer;
-});
-var _modelGetCorrectAnswer = require('../model/getCorrectAnswer');
-var _displayQuestion = require('./displayQuestion');
-const displayAnswer = async (result, answer, answers) => {
-  try {
-    const questionSet = localStorage.getItem('collection');
-    const questionId = JSON.parse(localStorage.getItem('currentQuestion'))._id;
-    const apiKey = localStorage.getItem('apiKey');
-    if (result) {
-      document.getElementById(answer.id).classList.add('correct');
-    } else if (!result) {
-      document.getElementById(answer.id).classList.add('wrong');
-      const correctAnswer = await _modelGetCorrectAnswer.getCorrectAnswer(questionSet, questionId, apiKey, answer.id);
-      document.getElementById(correctAnswer.answer).classList.add('correct');
-    }
-    document.querySelector('.status').innerHTML = '<button class="btn">Następne pytanie <i class="fas fa-forward"></i></button>';
-    document.querySelector('.btn').addEventListener('click', _displayQuestion.displayQuestion);
-  } catch (e) {
-    alert(e);
-  }
-};
+},{}]},["1kB7l","4VgBR"], "4VgBR", "parcelRequire9834")
 
-},{"../model/getCorrectAnswer":"6Bzrk","./displayQuestion":"4tPEM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"6Bzrk":[function(require,module,exports) {
-var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
-_parcelHelpers.defineInteropFlag(exports);
-_parcelHelpers.export(exports, "getCorrectAnswer", function () {
-  return getCorrectAnswer;
-});
-var _getAnswer = require('./getAnswer');
-const getCorrectAnswer = async (questionSet, questionId, apiKey, userAnswer) => {
-  const requests = ['a', 'b', 'c', 'd'].filter(req => req !== userAnswer.id);
-  const results = await Promise.all(requests.map(async req => {
-    const {data} = await _getAnswer.getAnswer(req, questionSet, questionId, apiKey);
-    return {
-      answer: req,
-      result: data.result
-    };
-  }));
-  return correctAnswer = results.find(el => el.result === true);
-};
-
-},{"./getAnswer":"3a9vn","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["7LgeZ","7E5dJ"], "7E5dJ", "parcelRequire9834")
-
-//# sourceMappingURL=quiz.37d85a6b.js.map
+//# sourceMappingURL=egzamin.6c933e8d.js.map

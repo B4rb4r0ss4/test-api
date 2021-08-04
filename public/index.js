@@ -36,6 +36,7 @@ const startApp = async () => {
         if (document.querySelector('#questionRandom').checked) {
           shuffleArray(questions);
         }
+        localStorage.setItem('play', true);
         localStorage.setItem('questions', JSON.stringify(questions));
         localStorage.setItem('currentQuestionNumber', 0);
         localStorage.setItem('questionsNumber', questions.length);
@@ -46,7 +47,17 @@ const startApp = async () => {
           'randomAnswers',
           document.querySelector('#answerRandom').checked
         );
-
+        localStorage.setItem('exam', document.querySelector('#exam').checked);
+        const userAnswers = [];
+        questions.forEach(question => {
+          userAnswers.push({
+            id: question._id,
+            userAnswer: 0,
+            i: 'i' + String(userAnswers.length),
+          });
+        });
+        localStorage.setItem('userAnswers', JSON.stringify(userAnswers));
+        localStorage.setItem('type', 'egzamin');
         window.location.href = '/test';
       } catch (e) {
         alert(e);

@@ -61,4 +61,32 @@ router.get('/collections/:key', auth, async (req, res) => {
   }
 });
 
+router.post('/checkExam/:key', auth, async (req, res) => {
+  try {
+    const { userAnswers, setName } = req.body;
+    const QuestionSet = mongoose.model(setName, questionSchema);
+
+    const answers = userAnswers.map(e => ({ id: e.id, answer: e.userAnswer }));
+
+    const examResults = await Promise.all(
+      answers.map(async answer => {
+        const question = await QuestionSet.findById(answer.id);
+        return {
+          result: answer.answer === question.correctAnswer,
+          answer: question.correctAnswer,
+          id: answer.id,
+        };
+      })
+    );
+
+    const points = examResults.reduce((acc, result) => {
+      if (result.result) return acc + 1;
+      return acc;
+    }, 0);
+    res.send({ examResults, points });
+  } catch (e) {
+    console.log(e);
+  }
+});
+
 module.exports = router;
