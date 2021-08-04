@@ -182,8 +182,8 @@ input[type='checkbox']:checked + label .indicator::after {
   ul {
     flex-wrap: nowrap;
     flex-direction: column;
-    overflow-y: auto;
-    padding-top: auto;
+    overflow-y: scroll;
+    justify-content: unset;
     height: 250px;
   }
 }
