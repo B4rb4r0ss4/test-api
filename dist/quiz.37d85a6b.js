@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"7LgeZ":[function(require,module,exports) {
+})({"335bV":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 45141;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "571ef5184cb4ed8e992b6cd937d85a6b";
@@ -2493,6 +2493,6 @@ const getCorrectAnswer = async (questionSet, questionId, apiKey, userAnswer) => 
   return correctAnswer = results.find(el => el.result === true);
 };
 
-},{"./getAnswer":"3a9vn","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["7LgeZ","7E5dJ"], "7E5dJ", "parcelRequire9834")
+},{"./getAnswer":"3a9vn","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}]},["335bV","7E5dJ"], "7E5dJ", "parcelRequire9834")
 
 //# sourceMappingURL=quiz.37d85a6b.js.map

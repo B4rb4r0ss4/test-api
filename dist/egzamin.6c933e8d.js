@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"1kB7l":[function(require,module,exports) {
+})({"5Dbse":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 45141;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "866619b133f9554ffc8d12de6c933e8d";
@@ -444,33 +444,46 @@ _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "generateQuestions", function () {
   return generateQuestions;
 });
+var _pureFunctions = require('./pureFunctions');
+var _pureFunctionsDefault = _parcelHelpers.interopDefault(_pureFunctions);
 const generateQuestions = () => {
   const questions = JSON.parse(localStorage.getItem('questions'));
   document.querySelector('output').textContent = `${localStorage.getItem('questionsNumber')} pytań`;
   const userAnswers = JSON.parse(localStorage.getItem('userAnswers'));
   questions.forEach((question, i) => {
+    const {a, b, c, d} = question;
+    const answers = [a, b, c, d];
+    let shuffle = localStorage.getItem('randomAnswers');
+    if (shuffle == 'true') {
+      _pureFunctionsDefault.default(answers);
+    }
+    const ids = [];
+    answers.forEach((el, ind) => {
+      const idEl = Object.keys(question).find(key => question[key] === answers[ind]);
+      ids.push(idEl);
+    });
     const html = `
       <li>
         <header class="question-title">${i + 1}. ${question.Question}</header>
         <ul class="answersUl" id="${question._id}">
-          <button class="answersBtn i${i} button" id="a">
+          <button class="answersBtn i${i} button" id="${ids[0]}">
             <li class="answers">
-                ${question.a}
+                ${answers[0]}
             </li>
           </button>
-          <button class="answersBtn i${i} button" id="b">
+          <button class="answersBtn i${i} button" id="${ids[1]}">
             <li class="answers">
-                ${question.b}
+                ${answers[1]}
             </li>
           </button>
-          <button class="answersBtn i${i} button" id="c">
+          <button class="answersBtn i${i} button" id="${ids[2]}">
             <li class="answers">
-                ${question.c}
+                ${answers[2]}
             </li>
           </button>
-          <button class="answersBtn i${i} button" id="d"'>
+          <button class="answersBtn i${i} button" id="${ids[3]}">
             <li class="answers">
-                ${question.d}
+                ${answers[3]}
             </li>
           </button>
         </ul>
@@ -480,7 +493,7 @@ const generateQuestions = () => {
   });
 };
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5gA8y":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./pureFunctions":"6ZtnW"}],"5gA8y":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
@@ -522,7 +535,13 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}],"3j8Th":[function(require,module,exports) {
+},{}],"6ZtnW":[function(require,module,exports) {
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+exports.default = shuffleArray;
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3j8Th":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "timer", function () {
@@ -2433,6 +2452,6 @@ module.exports = function isAxiosError(payload) {
   return (typeof payload === 'object') && (payload.isAxiosError === true);
 };
 
-},{}]},["1kB7l","4VgBR"], "4VgBR", "parcelRequire9834")
+},{}]},["5Dbse","4VgBR"], "4VgBR", "parcelRequire9834")
 
 //# sourceMappingURL=egzamin.6c933e8d.js.map
